@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: "Monda";
-  src: url("font/Monda-Regular.ttf") format("truetype");
+  src: url("./assets/font/Monda-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Monda";
   font-weight: bold;
-  src: url("font/Monda-Bold.ttf") format("truetype");
+  src: url("./assets/font/Monda-Bold.ttf") format("truetype");
 }
 
 :root {
