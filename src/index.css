@@ -218,6 +218,6 @@ body {
 }
 
 .intro--disappear .contact-mobile {
-  margin-top: 150px;
+  margin-top: 75px;
   animation: fadeOut 1s ease-in-out forwards;
 }
