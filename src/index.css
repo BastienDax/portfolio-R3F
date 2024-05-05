@@ -216,3 +216,9 @@ body {
   transition: 0.42s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;
 }
+
+.intro--disappear .contact-mobile {
+  display: hidden;
+  opacity: 0;
+  animation: fadeOut 1s ease-in-out forwards;
+}
