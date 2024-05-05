@@ -16,7 +16,7 @@ export const Overlay = () => {
       {progress === 100 && (
         <>
           <div className={`intro ${play ? "intro--disappear" : ""}`}>
-            <h1 className="logo top-[45vh]">
+            <h1 className="logo top-[35vh]">
               <b>Bastien Daxhelet</b> <br className="md:hidden" />—
               <br className="md:hidden" /> Développeur Créatif
             </h1>
@@ -54,7 +54,7 @@ export const Overlay = () => {
           </div>
           <div className="md:absolute md:top-8 md:right-8">
             <button
-              className="contact"
+              className="hidden md:contact"
               onClick={() => {
                 setPlay(true);
               }}
