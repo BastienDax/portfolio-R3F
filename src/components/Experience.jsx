@@ -11,7 +11,7 @@ function Loader() {
 export const Experience = () => {
   return (
     <>
-      <OrbitControls />
+      {/* <OrbitControls /> */}
 
       <Suspense fallback={<Loader />}>
         <Deskroom />

@@ -20,7 +20,9 @@ export const Overlay = () => {
               <b>Bastien Daxhelet</b> <br className="md:hidden" />—
               <br className="md:hidden" /> Développeur Créatif
             </h1>
-            <p className="intro__scroll">Scroll pour découvrir mon univers</p>
+            <p className="intro__scroll top-[65vh] md:top-[75vh]">
+              Scroll pour découvrir mon univers
+            </p>
             <div className="flex items-center justify-center flex-col gap-y-4 mt-16 md:mt-0 md:gap-y-0">
               <button
                 className="explore"
