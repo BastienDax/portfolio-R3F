@@ -50,7 +50,7 @@ export const Overlay = () => {
           <div className="absolute top-8 left-1/2 -translate-x-1/2 md:left-8 md:-translate-x-0">
             <img className="h-20" src="logo/logo_blanc.svg" alt="" />
           </div>
-          <div className="md:absolute md:top-8 md:right-8">
+          <div className="hidden md:block md:absolute md:top-8 md:right-8">
             <a className="contact" href={"mailto:bastien.daxhelet@gmail.com"}>
               Me contacter
             </a>

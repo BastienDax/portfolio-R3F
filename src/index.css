@@ -97,13 +97,14 @@ body {
 
 .intro__scroll {
   opacity: 0;
-  font-size: 1rem;
-  letter-spacing: 0.05rem;
   position: absolute;
-  top: 15vh;
+  top: 75vh;
+  color: white;
 }
 
 .intro--disappear .intro__scroll {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
   animation: fadeIn 1s ease-in-out 1.5s forwards;
 }
 
@@ -218,6 +219,7 @@ body {
 }
 
 .intro--disappear .contact-mobile {
-  margin-top: 75px;
+  display: hidden;
+  opacity: 0;
   animation: fadeOut 1s ease-in-out forwards;
 }
