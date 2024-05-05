@@ -49,6 +49,8 @@ body {
 .overlay--disable {
   pointer-events: none;
   background-color: transparent;
+  backdrop-filter: none;
+  transition: all 0.5s ease-in-out;
 }
 
 .loader {
@@ -68,7 +70,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   height: 100%;
 }
 
@@ -76,19 +77,17 @@ body {
   font-size: 2rem;
   letter-spacing: 0rem;
   color: #fafafa;
-  padding: 0;
-  margin: 0;
   transform: translateY(-50%);
   position: absolute;
-  top: 50vh;
+  /* top: 50vh; */
   animation: fadeUp 2.4s ease-in-out;
-  transition: all 2s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  line-height: 32px;
 }
 
 .intro--disappear .logo {
-  top: 0;
-  transform: scale(0.25);
-  transform-origin: center top;
+  opacity: 0;
 }
 
 .intro--disappear .spinner {
@@ -119,7 +118,6 @@ body {
   background-color: #fafafa;
   color: #006dd2;
   text-align: center;
-  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -132,6 +130,7 @@ body {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  transition: all 0.5s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;
   display: flex;
   align-items: center;
@@ -173,6 +172,7 @@ body {
 }
 
 .intro--disappear .explore {
+  opacity: 0;
   animation: fadeOut 1s ease-in-out forwards;
 }
 
@@ -190,6 +190,26 @@ body {
   border-radius: 32px;
   cursor: pointer;
   display: inline-flex;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.42s ease-in-out;
+  animation: fadeIn 2.4s ease-in-out 2s forwards;
+}
+
+.contact-mobile {
+  padding: 16px 36px;
+  border: none;
+  background-color: #fafafa;
+  color: #006dd2;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  border-radius: 32px;
+  cursor: pointer;
   position: relative;
   z-index: 1;
   overflow: hidden;
