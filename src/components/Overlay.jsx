@@ -16,7 +16,7 @@ export const Overlay = () => {
       {progress === 100 && (
         <>
           <div className={`intro ${play ? "intro--disappear" : ""}`}>
-            <h1 className="logo top-[35vh]">
+            <h1 className="logo top-[35vh] md:top-[50vh]">
               <b>Bastien Daxhelet</b> <br className="md:hidden" />—
               <br className="md:hidden" /> Développeur Créatif
             </h1>
@@ -39,28 +39,21 @@ export const Overlay = () => {
                 </svg>
                 Démarrer l'expérience
               </button>
-              <button
+              <a
                 className="contact-mobile md:hidden"
-                onClick={() => {
-                  setPlay(true);
-                }}
+                href={"mailto:bastien.daxhelet@gmail.com"}
               >
                 Me contacter
-              </button>
+              </a>
             </div>
           </div>
           <div className="absolute top-8 left-1/2 -translate-x-1/2 md:left-8 md:-translate-x-0">
             <img className="h-20" src="logo/logo_blanc.svg" alt="" />
           </div>
           <div className="md:absolute md:top-8 md:right-8">
-            <button
-              className="hidden md:contact"
-              onClick={() => {
-                setPlay(true);
-              }}
-            >
+            <a className="contact" href={"mailto:bastien.daxhelet@gmail.com"}>
               Me contacter
-            </button>
+            </a>
           </div>
           <div className="absolute bottom-0 w-full">
             <div className="md:flex text-center mx-8 mb-8 text-white justify-center md:justify-between md:items-center">
