@@ -39,7 +39,11 @@ function Home() {
         </ScrollControls>
       </Canvas>
 
-      <a ref={navigationRef} href="./interface" style={{ display: "none" }} />
+      <a
+        ref={navigationRef}
+        href="./interface-dev"
+        style={{ display: "none" }}
+      />
 
       <Overlay />
     </>
