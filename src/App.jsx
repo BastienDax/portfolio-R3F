@@ -6,26 +6,43 @@ import { getProject, val } from "@theatre/core";
 import {
   SheetProvider,
   PerspectiveCamera,
-  OrthographicCamera,
   useCurrentSheet,
 } from "@theatre/r3f";
 
 import deskroomThroughState from "./deskroom.json";
+import { useRef } from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 
 function App() {
   const sheet = getProject("Portfolio", { state: deskroomThroughState }).sheet(
     "Scene"
   );
 
+  const [animationComplete, setAnimationComplete] = useState(false);
+  const navigationRef = useRef(null);
+
+  useEffect(() => {
+    if (animationComplete) {
+      navigationRef.current.click();
+    }
+  }, [animationComplete]);
+
+  const handleAnimationComplete = () => {
+    setAnimationComplete(true);
+  };
+
   return (
     <>
       <Canvas flat gl={{ preserveDrawingBuffer: true }}>
-        <ScrollControls pages={4} damping={1} maxSpeed={1}>
+        <ScrollControls pages={3} damping={1} maxSpeed={1}>
           <SheetProvider sheet={sheet}>
-            <Scene />
+            <Scene onAnimationComplete={handleAnimationComplete} />
           </SheetProvider>
         </ScrollControls>
       </Canvas>
+
+      <a ref={navigationRef} href="./interface" style={{ display: "none" }} />
 
       <Overlay />
     </>
@@ -34,7 +51,7 @@ function App() {
 
 export default App;
 
-function Scene() {
+function Scene({ onAnimationComplete }) {
   const sheet = useCurrentSheet();
   const scroll = useScroll();
 
@@ -42,6 +59,10 @@ function Scene() {
     const sequenceLength = val(sheet.sequence.pointer.length);
 
     sheet.sequence.position = scroll.offset * sequenceLength;
+
+    if (sheet.sequence.position >= sequenceLength - 1) {
+      onAnimationComplete();
+    }
   });
 
   return (
