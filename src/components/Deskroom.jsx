@@ -19,6 +19,7 @@ export function Deskroom() {
   return (
     <mesh
       scale={isMobile ? responsiveRatio : 1}
+      rotation={[0.5, -0.75, 0]}
       geometry={nodes.baked.geometry}
     >
       <meshBasicMaterial map={texture} />

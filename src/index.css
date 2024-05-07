@@ -18,7 +18,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background-color: black;
+  background-color: #688cae;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,14 +26,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body,
 #root {
-  width: 100vw;
-  height: 100vh;
-}
-
-body {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  background-color: #688cae;
+  padding: 0;
+  overflow: hidden;
 }
 
 .overlay {
@@ -44,6 +44,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
+  z-index: 9999;
 }
 
 .overlay--disable {
@@ -191,7 +192,6 @@ body {
   cursor: pointer;
   display: inline-flex;
   position: relative;
-  z-index: 1;
   overflow: hidden;
   transition: 0.42s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;
@@ -211,7 +211,6 @@ body {
   border-radius: 32px;
   cursor: pointer;
   position: relative;
-  z-index: 1;
   overflow: hidden;
   transition: 0.42s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;

@@ -71,7 +71,7 @@ export const Overlay = () => {
               Me contacter
             </a>
           </div>
-          <div className="absolute bottom-0 w-full">
+          <div className="absolute bottom-0 w-full z-50">
             <div className="md:flex text-center mx-8 mb-8 text-white justify-center md:justify-between md:items-center">
               <div>[ Québec, Canada ]</div>
               <div>
