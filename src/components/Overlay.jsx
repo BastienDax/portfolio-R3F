@@ -20,11 +20,11 @@ export const Overlay = () => {
               <b>Bastien Daxhelet</b> <br className="md:hidden" />—
               <br className="md:hidden" /> Développeur Créatif
             </h1>
-            <p className="intro__scroll top-[65vh] md:top-[75vh]">
+            <p className="intro__scroll top-[65vh] md:top-[75vh] font-bold tracking-widest">
               Scroll pour découvrir mon univers
             </p>
             <p className="intro__scroll top-[70vh] md:top-[80vh]">
-              <svg
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
                 height="60"
@@ -35,7 +35,10 @@ export const Overlay = () => {
                   d="M16.7322 124.784C17.7085 125.76 19.2915 125.76 20.2678 124.784L36.1777 108.874C37.154 107.898 37.154 106.315 36.1777 105.339C35.2014 104.362 33.6184 104.362 32.6421 105.339L18.5 119.481L4.35786 105.339C3.38155 104.362 1.79864 104.362 0.82233 105.339C-0.15398 106.315 -0.15398 107.898 0.82233 108.874L16.7322 124.784ZM16 0L16 123.016H21L21 0L16 0Z"
                   fill="white"
                 />
-              </svg>
+              </svg> */}
+              <div class="scroll-icon ex-1">
+                <span class="wheel"></span>
+              </div>
             </p>
             <div className="flex items-center justify-center flex-col gap-y-4 mt-16 md:mt-0 md:gap-y-0">
               <button
