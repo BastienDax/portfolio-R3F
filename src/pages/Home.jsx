@@ -9,7 +9,7 @@ import {
   useCurrentSheet,
 } from "@theatre/r3f";
 
-import deskroomThroughState from "../deskroom.json";
+import deskroomThroughState from "../deskroom2.json";
 import { useRef } from "react";
 import { useEffect } from "react";
 import { useState } from "react";

@@ -24,18 +24,6 @@ export const Overlay = () => {
               Scroll pour découvrir mon univers
             </p>
             <p className="intro__scroll top-[70vh] md:top-[80vh]">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="60"
-                viewBox="0 0 37 126"
-                fill="none"
-              >
-                <path
-                  d="M16.7322 124.784C17.7085 125.76 19.2915 125.76 20.2678 124.784L36.1777 108.874C37.154 107.898 37.154 106.315 36.1777 105.339C35.2014 104.362 33.6184 104.362 32.6421 105.339L18.5 119.481L4.35786 105.339C3.38155 104.362 1.79864 104.362 0.82233 105.339C-0.15398 106.315 -0.15398 107.898 0.82233 108.874L16.7322 124.784ZM16 0L16 123.016H21L21 0L16 0Z"
-                  fill="white"
-                />
-              </svg> */}
               <div class="scroll-icon ex-1">
                 <span class="wheel"></span>
               </div>
