@@ -52,7 +52,9 @@ export const Overlay = () => {
             </div>
           </div>
           <div className="absolute top-8 left-1/2 -translate-x-1/2 md:left-8 md:-translate-x-0">
-            <img className="h-20" src="logo/logo_blanc.svg" alt="" />
+            <a className="pointer-events-auto" href="/">
+              <img className="h-20" src="logo/logo_blanc.svg" alt="Logo" />
+            </a>
           </div>
           <div className="hidden md:block md:absolute md:top-8 md:right-8">
             <a className="contact" href={"mailto:bastien.daxhelet@gmail.com"}>
@@ -61,14 +63,19 @@ export const Overlay = () => {
           </div>
           <div className="absolute bottom-0 w-full z-50">
             <div className="md:flex text-center mx-8 mb-8 text-white justify-center md:justify-between md:items-center">
-              <div>[ Québec, Canada ]</div>
+              <div className="pointer-events-auto">[ Québec, Canada ]</div>
               <div>
-                <a href={"mailto:bastien.daxhelet@gmail.com"}>
+                <a
+                  className="pointer-events-auto"
+                  href={"mailto:bastien.daxhelet@gmail.com"}
+                >
                   [ bastien.daxhelet@gmail.com ]
                 </a>
               </div>
               <div>
-                <a href={"tel:+1 367 380 3028"}>[ 367-380-3028 ]</a>
+                <a className="pointer-events-auto" href={"tel:+1 367 380 3028"}>
+                  [ 367-380-3028 ]
+                </a>
               </div>
             </div>
           </div>
