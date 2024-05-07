@@ -2,6 +2,7 @@ import React from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 import { useThree } from "@react-three/fiber";
+import { Screen } from "./Screen";
 
 export function Deskroom() {
   const { nodes } = useGLTF("models/deskroom.glb");
@@ -17,13 +18,17 @@ export function Deskroom() {
   const responsiveRatio = viewport.width / 12;
 
   return (
-    <mesh
-      scale={isMobile ? responsiveRatio : 1}
-      rotation={[0.5, -0.75, 0]}
-      geometry={nodes.baked.geometry}
-    >
-      <meshBasicMaterial map={texture} />
-    </mesh>
+    <>
+      <mesh
+        scale={isMobile ? responsiveRatio : 1}
+        rotation={[0.5, -0.75, 0]}
+        geometry={nodes.baked.geometry}
+      >
+        <meshBasicMaterial map={texture} />
+      </mesh>
+
+      <Screen />
+    </>
   );
 }
 

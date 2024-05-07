@@ -221,3 +221,8 @@ body,
   opacity: 0;
   animation: fadeOut 1s ease-in-out forwards;
 }
+
+.htmlScreen iframe {
+  width: 1024px;
+  height: 670px;
+}
