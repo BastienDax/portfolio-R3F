@@ -44,27 +44,13 @@ body,
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: 9999;
 }
 
 .overlay--disable {
-  pointer-events: none;
+  position: absolute;
   background-color: transparent;
   backdrop-filter: none;
   transition: all 0.5s ease-in-out;
-}
-
-.loader {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  transition: opacity 2s ease-in-out;
-}
-
-.loader--disappear {
-  opacity: 0;
 }
 
 .intro {
@@ -80,7 +66,6 @@ body,
   color: #fafafa;
   transform: translateY(-50%);
   position: absolute;
-  /* top: 50vh; */
   animation: fadeUp 2.4s ease-in-out;
   transition: all 0.5s ease-in-out;
   text-align: center;
@@ -121,6 +106,7 @@ body,
   border-radius: 0.6em;
   animation: ex-1-wheel 1s ease-in-out infinite;
 }
+
 @keyframes ex-1-wheel {
   0% {
     transform: translate(-50%, 0);
@@ -230,6 +216,7 @@ body,
   overflow: hidden;
   transition: 0.42s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;
+  z-index: 99999;
 }
 
 .contact-mobile {
@@ -255,9 +242,4 @@ body,
   display: hidden;
   opacity: 0;
   animation: fadeOut 1s ease-in-out forwards;
-}
-
-.htmlScreen iframe {
-  width: 1024px;
-  height: 670px;
 }

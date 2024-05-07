@@ -1,3 +1,4 @@
+import { useEffect, useState, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Overlay } from "../components/Overlay";
 import { ScrollControls, useScroll } from "@react-three/drei";
@@ -8,11 +9,7 @@ import {
   PerspectiveCamera,
   useCurrentSheet,
 } from "@theatre/r3f";
-
 import deskroomThroughState from "../deskroom2.json";
-import { useRef } from "react";
-import { useEffect } from "react";
-import { useState } from "react";
 
 function Home() {
   const sheet = getProject("Portfolio", { state: deskroomThroughState }).sheet(

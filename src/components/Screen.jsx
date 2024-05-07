@@ -1,18 +1,10 @@
 import React from "react";
 import { useGLTF, useTexture, Decal } from "@react-three/drei";
-import { useControls } from "leva";
 
 export function Screen() {
   const { nodes, materials } = useGLTF("models/deskroom_no_merge.glb");
 
   const screenShot = useTexture("models/screen.png");
-
-  //   const { position } = useControls({
-  //     position: {
-  //       value: { x: 2.35, y: 2.86, z: -1.94 },
-  //       step: 0.001,
-  //     },
-  //   });
 
   return (
     <>
@@ -31,7 +23,7 @@ export function Screen() {
             <meshBasicMaterial
               map={screenShot}
               polygonOffset
-              polygonOffsetFactor={-1} // The material should take precedence over the original
+              polygonOffsetFactor={-1}
             />
           </Decal>
         </mesh>
