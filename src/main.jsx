@@ -1,22 +1,44 @@
-import React from "react";
+import React, { Suspense, useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { PlayProvider } from "./contexts/Play";
-import { Suspense } from "react";
 
-// import studio from "@theatre/studio";
-// import extension from "@theatre/r3f/dist/extension";
+function Loading() {
+  const [progress, setProgress] = useState(0);
 
-// studio.extend(extension);
-// studio.initialize();
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Simulez une progression de chargement
+      if (progress < 100) {
+        setProgress((prevProgress) => prevProgress + 1);
+      } else {
+        clearInterval(interval);
+      }
+    }, 100); // Changez le délai selon vos besoins
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <PlayProvider>
-      <Suspense fallback={null}>
-        <App />
-      </Suspense>
-    </PlayProvider>
-  </React.StrictMode>
-);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  return (
+    <div className="h-full flex justify-center items-center">
+      Chargement... {progress}%
+    </div>
+  );
+}
+
+function Main() {
+  return (
+    <React.StrictMode>
+      <PlayProvider>
+        <Suspense fallback={<Loading />}>
+          <App />
+        </Suspense>
+      </PlayProvider>
+    </React.StrictMode>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<Main />);

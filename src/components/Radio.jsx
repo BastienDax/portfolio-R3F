@@ -1,6 +1,4 @@
-import picture_profile from "/bastien_cafe.jpeg";
-
-export const SpatialUIMenu = () => {
+export const Radio = () => {
   const data = [
     {
       img: "/vibesonly.png",
@@ -46,12 +44,10 @@ export const SpatialUIMenu = () => {
 
   return (
     <div className="container">
-      {/* <div>Bastien Daxhelet</div> */}
-
-      {/* <div className="col left">
+      <div className="col left">
         <div className="row">
           <div className="text">
-            <h1>bastien</h1>
+            <h1>Library</h1>
             <p>All Music</p>
           </div>
           <div className="option" data="ellipsis">
@@ -467,7 +463,7 @@ export const SpatialUIMenu = () => {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

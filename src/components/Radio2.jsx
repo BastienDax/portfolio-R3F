@@ -1,4 +1,6 @@
-export const SpatialUI = () => {
+import picture_profile from "/bastien_cafe.jpeg";
+
+export const Radio2 = () => {
   const data = [
     {
       img: "/vibesonly.png",
@@ -43,11 +45,12 @@ export const SpatialUI = () => {
   ];
 
   return (
-    <div className="container">
-      <div className="col left">
+    <div className="container flex justify-center items-center">
+      <div>test</div>
+      {/* <div className="col left">
         <div className="row">
           <div className="text">
-            <h1>Library</h1>
+            <h1>bastien</h1>
             <p>All Music</p>
           </div>
           <div className="option" data="ellipsis">
@@ -463,7 +466,7 @@ export const SpatialUI = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

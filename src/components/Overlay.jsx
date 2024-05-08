@@ -20,11 +20,11 @@ export const Overlay = () => {
             <p className="intro__scroll top-[65vh] md:top-[75vh] font-bold tracking-widest">
               Scroll pour découvrir mon univers
             </p>
-            <p className="intro__scroll top-[70vh] md:top-[80vh]">
-              <div class="scroll-icon ex-1">
-                <span class="wheel"></span>
+            <div className="intro__scroll top-[70vh] md:top-[80vh]">
+              <div className="scroll-icon ex-1">
+                <span className="wheel"></span>
               </div>
-            </p>
+            </div>
             <div className="flex items-center justify-center flex-col gap-y-4 mt-16 md:mt-0 md:gap-y-0">
               <button
                 className="explore"
