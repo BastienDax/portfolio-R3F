@@ -375,3 +375,62 @@ body,
   top: 0;
   left: 0;
 }
+
+/* 
+  Toggle Switch Button 
+  
+*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 75px;
+  height: 42px;
+  margin: 0 10px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(80, 80, 80, 0.3), rgba(128, 128, 128, 0.3));
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(50px);
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 34px;
+  width: 34px;
+  left: 4px;
+  bottom: 4px;
+  background: rgba(255, 255, 255, 0.4);
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.slider svg {
+  position: absolute;
+  bottom: 11px;
+  left: 11px;
+  transition: 0.4s;
+}
+
+input:checked + .slider:before {
+  transform: translateX(33px);
+  background: #006dd2;
+}
+
+input:checked + .slider svg {
+  transform: translateX(33px);
+}
