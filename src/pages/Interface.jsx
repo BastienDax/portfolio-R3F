@@ -31,6 +31,7 @@ export default function Interface() {
   const deniedCamera = () => {
     setCameraAccepted(false);
     setChoiceCamera(true);
+    setTutorial(true);
   };
 
   const changeAccesCamera = () => {
@@ -51,11 +52,11 @@ export default function Interface() {
         <Canvas>
           <FaceLandmarker>
             <Environment
-              files="models/deskroom4k.hdr"
+              files="models/deskroom2k.hdr"
               background
               resolution={256}
               backgroundRotation={[0, Math.PI / 2, 0]}
-              backgroundIntensity={0}
+              backgroundIntensity={0.1}
             />
 
             {cameraAccepted ? (
@@ -102,7 +103,7 @@ export default function Interface() {
               </Html>
             )}
 
-            {choiceCamera === true && !tutorial && (
+            {choiceCamera === true && !tutorial && cameraAccepted && (
               <Html center position={[2, 0, -25]}>
                 <div className="w-screen h-screen flex justify-center">
                   <div className="flex flex-col justify-center items-center">
@@ -159,7 +160,7 @@ export default function Interface() {
       ) : (
         <Canvas>
           <Environment
-            files="models/deskroom4k.hdr"
+            files="models/deskroom2k.hdr"
             background
             resolution={256}
             backgroundRotation={[0, Math.PI / 2, 0]}
@@ -198,7 +199,7 @@ export default function Interface() {
             </Html>
           )}
 
-          {choiceCamera === true && !tutorial && (
+          {choiceCamera === true && !tutorial && cameraAccepted && (
             <Html center position={[2, 0, -25]}>
               <div className="w-screen h-screen flex justify-center">
                 <div className="flex flex-col justify-center items-center">
@@ -233,7 +234,7 @@ export default function Interface() {
             </group>
           )}
 
-          {cameraAccepted === false && tutorial && (
+          {cameraAccepted === false && !cameraAccepted && (
             <Float rotationIntensity={0.2}>
               <group position={[2, 0, -25]}>
                 <Html transform>
@@ -250,7 +251,6 @@ export default function Interface() {
           )}
         </Canvas>
       )}
-
       {tutorial && (
         <div className="h-full w-screen">
           <div className="absolute bottom-4 right-4">
