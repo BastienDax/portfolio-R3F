@@ -251,11 +251,13 @@ body,
 */
 
 .player {
-  display: inline-flex;
+  width: 60%;
+  display: flex;
   padding: 18px 24px;
   justify-content: center;
   align-items: center;
   gap: 36px;
+  margin-top: -40px;
   border-radius: 100px;
   border: 1.4px solid rgba(255, 255, 255, 0.4);
   /* background: rgba(128, 128, 128, 0.3); */
@@ -306,14 +308,19 @@ body,
 */
 
 .container {
-  width: 1250px;
-  height: 750px;
+  height: 70vh;
+  width: 70vw;
   border: 1.4px solid rgba(255, 255, 255, 0.4);
-  border-radius: 46px;
+  border-radius: 34px;
   background: linear-gradient(rgba(80, 80, 80, 0.3), rgba(128, 128, 128, 0.3));
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   background-blend-mode: luminosity;
+}
+
+.interfaceMenu {
+  height: 70vh;
+  width: 70vw;
 }
 
 /*

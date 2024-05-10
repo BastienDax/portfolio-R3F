@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.5.0.22-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-width="0.501" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="124.984pt" height="125.715pt" viewBox="358.091 -691.562 124.984 125.715">
+ <defs>
+	</defs>
+ <g id="Layer 1" transform="scale(1 -1)">
+ 
+  <g id="Group" stroke-linejoin="miter" opacity="0.2">
+   <path d="M 400.72,566.423 L 400.652,608.144 L 358.668,608.337 L 358.83,648.263 L 400.589,648.069 L 400.521,690.093 L 440.447,690.18 L 440.515,647.884 L 482.498,647.689 L 482.336,607.763 L 440.578,607.958 L 440.645,566.511 L 400.72,566.423 Z" stroke="#020360" stroke-width="1.15" marker-start="none" marker-end="none"/>
+   <path d="M 402.445,568.14 L 402.444,610.242 L 360.343,610.425 L 360.5,646.701 L 402.444,646.52 L 402.445,688.464 L 438.721,688.464 L 438.721,646.362 L 480.823,646.18 L 480.666,609.903 L 438.721,610.085 L 438.721,568.14 L 402.445,568.14 Z" stroke="none" fill="#020360" stroke-width="0.401" marker-start="none" marker-end="none"/>
+  </g>
+  <g id="Group_1" stroke-linejoin="miter" stroke-linecap="round">
+   <path d="M 363.184,626.791 L 376.168,626.895" fill="none" stroke="#020360" stroke-width="2.865"/>
+   <path d="M 376.168,626.895 L 380.761,645.454" fill="none" stroke="#020360" stroke-width="2.865"/>
+   <path d="M 380.761,645.454 L 391.911,567.788" fill="none" stroke="#020360" stroke-width="2.865"/>
+   <path d="M 391.911,567.788 L 401.095,690.129" fill="none" stroke="#020360" stroke-width="2.865"/>
+   <path d="M 401.095,690.129 L 407.654,614.525" fill="none" stroke="#020360" stroke-width="2.865"/>
+   <path d="M 415.198,626.895 L 478.2,626.597" fill="none" stroke="#020360" stroke-width="2.865"/>
+   <path d="M 408.312,615.213 L 414.215,626.895" fill="none" stroke="#020360" stroke-width="2.865"/>
+   <path d="M 360.551,628.235 L 360.551,625.341 L 363.197,625.341 L 363.197,628.235 L 360.551,628.235 Z" fill="#020360" stroke="none" stroke-width="0.179" marker-start="none" marker-end="none"/>
+   <rect x="-1.2465" y="-1.3635" width="2.493" height="2.727" rx="0" ry="0" transform="matrix(1.06131 0 0 1.06131 478.916 626.603)" fill="#020360" stroke="none" stroke-width="0.179"/>
+   <text xml:space="preserve" transform="translate(410.045 631.621) scale(1 -1)" kerning="0" font-size="17.198" stroke="#020360" fill="#020360" stroke-width="0.544" font-family="Verdana" style="-moz-font-feature-settings:'liga' on;-ms-font-feature-settings:'liga' on;-webkit-font-feature-settings:'liga' on;font-feature-settings:'liga' on;font-variant-ligatures: common-ligatures no-discretionary-ligatures no-historical-ligatures"><tspan x="0" y="0">rdenne</tspan></text>
+   <text xml:space="preserve" transform="translate(441.436 611.762) scale(1 -1)" kerning="0" font-size="17.198" stroke="#020360" fill="#020360" stroke-width="0.544" font-family="Verdana" style="-moz-font-feature-settings:'liga' on;-ms-font-feature-settings:'liga' on;-webkit-font-feature-settings:'liga' on;font-feature-settings:'liga' on;font-variant-ligatures: common-ligatures no-discretionary-ligatures no-historical-ligatures"><tspan x="0" y="0">Vet</tspan></text>
+  </g>
+ </g>
+</svg>
