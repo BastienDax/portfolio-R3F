@@ -365,15 +365,20 @@ body,
   position: relative;
 }
 
-.hidden {
-  display: none;
+.animated-svg {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-.visible {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
+.animated-svg.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.animated-svg.hidden {
+  opacity: 0;
+  visibility: hidden;
 }
 
 /* 

@@ -15,7 +15,9 @@ export default function FaceSVGAnimation() {
       {Array.from({ length: 4 }, (_, index) => (
         <svg
           key={index}
-          className={index === currentSVGIndex ? "visible" : "hidden"}
+          className={`animated-svg ${
+            index === currentSVGIndex ? "visible" : "hidden"
+          }`}
           xmlns="http://www.w3.org/2000/svg"
           width="213"
           height="213"
