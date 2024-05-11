@@ -13,7 +13,6 @@ import {
 import FaceSVGAnimation from "../components/FaceSVGAnimation";
 import InterfaceMenu from "./InterfaceMenu";
 import { useState } from "react";
-import { BottomMenu } from "../components/BottomMenu";
 
 export default function Interface() {
   const [cameraAccepted, setCameraAccepted] = useState(null);
@@ -53,7 +52,7 @@ export default function Interface() {
         <Canvas>
           <FaceLandmarker>
             <Environment
-              files="models/deskroom2k.hdr"
+              files="models/deskroom4k.hdr"
               background
               resolution={256}
               backgroundRotation={[0, Math.PI / 2, 0]}
@@ -68,39 +67,7 @@ export default function Interface() {
                 <OrbitControls />
               </>
             )}
-            {choiceCamera === false && (
-              <Html center position={[2, 0, -25]}>
-                <div className="w-screen h-screen flex justify-center">
-                  <div className="flex mt-96 flex-col justify-center items-center">
-                    <div className="flex justify-center gap-x-4">
-                      <button
-                        className="contact"
-                        onClick={() => acceptCamera()}
-                      >
-                        Accepter
-                      </button>
-                      <button
-                        className="contact"
-                        onClick={() => deniedCamera()}
-                      >
-                        Refuser
-                      </button>
-                    </div>
-                    <p className="mt-14 text-xl font-bold text-white">
-                      Acceptez l’usage de la caméra pour avoir une meilleure
-                      expérience.
-                    </p>
-                  </div>
-                </div>
-                <div className="absolute bottom-4 left-0 w-full">
-                  <div className="text-center">
-                    <p className="text-white">
-                      <b>Bastien Daxhelet</b> - Développeur créatif
-                    </p>
-                  </div>
-                </div>
-              </Html>
-            )}
+
             {choiceCamera === true && !tutorial && cameraAccepted && (
               <Html center position={[2, 0, -25]}>
                 <div className="w-screen h-screen flex justify-center">
@@ -134,11 +101,11 @@ export default function Interface() {
       ) : (
         <Canvas>
           <Environment
-            files="models/deskroom2k.hdr"
+            files="models/deskroom4k.hdr"
             background
             resolution={256}
             backgroundRotation={[0, Math.PI / 2, 0]}
-            backgroundIntensity={0.1}
+            backgroundIntensity={0.05}
           />
 
           <PerspectiveCamera makeDefault near={0.1} far={2000} fov={75} />
@@ -147,6 +114,10 @@ export default function Interface() {
             <Html center position={[2, 0, -25]}>
               <div className="w-screen h-screen flex justify-center">
                 <div className="flex mt-96 flex-col justify-center items-center">
+                  <p className="mb-14 text-xl font-bold text-white">
+                    Acceptez l’usage de la caméra pour avoir une meilleure
+                    expérience.
+                  </p>
                   <div className="flex justify-center gap-x-4">
                     <button className="contact" onClick={() => acceptCamera()}>
                       Accepter
@@ -155,10 +126,6 @@ export default function Interface() {
                       Refuser
                     </button>
                   </div>
-                  <p className="mt-14 text-xl font-bold text-white">
-                    Acceptez l’usage de la caméra pour avoir une meilleure
-                    expérience.
-                  </p>
                 </div>
               </div>
               <div className="absolute bottom-4 left-0 w-full">
@@ -166,27 +133,6 @@ export default function Interface() {
                   <p className="text-white">
                     <b>Bastien Daxhelet</b> - Développeur créatif
                   </p>
-                </div>
-              </div>
-            </Html>
-          )}
-
-          {choiceCamera === true && !tutorial && cameraAccepted && (
-            <Html center position={[2, 0, -25]}>
-              <div className="w-screen h-screen flex justify-center">
-                <div className="flex flex-col justify-center items-center">
-                  <div className="">
-                    <FaceSVGAnimation />
-                  </div>
-                  <p className="mt-14 text-xl font-bold text-white">
-                    Bougez votre tête pour découvrir votre environnement
-                  </p>
-                  <button
-                    className="contact mt-12"
-                    onClick={() => tutorialEnd()}
-                  >
-                    J'ai compris
-                  </button>
                 </div>
               </div>
             </Html>
