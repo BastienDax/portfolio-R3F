@@ -41,12 +41,12 @@ export default function AboutPage({ onClick }) {
             </div>
           </div>
           <h1 className="mt-6 font-bold text-2xl">Bastien Daxhelet</h1>
-          <p className="my-6">
+          <h2 className="my-6">
             Tortor viverra mollis mauris malesuada sed lobortis. Pharetra
             porttitor amet ac ipsum venenatis. Tristique et neque non sit
             phasellus mattis hac morbi facilisis.
-          </p>
-          <h2 className="font-bold text-2xl">Ce que je réalise</h2>
+          </h2>
+          <h3 className="font-bold text-2xl">Ce que je réalise</h3>
           <p className="my-6">
             Tortor viverra mollis mauris malesuada sed lobortis. Pharetra
             porttitor amet ac ipsum venenatis. Tristique et neque non sit
@@ -54,36 +54,7 @@ export default function AboutPage({ onClick }) {
             malesuada sed lobortis. Pharetra porttitor amet ac ipsum venenatis.
             Tristique et neque non sit phasellus mattis hac morbi facilisis.
           </p>
-          <h3 className="font-bold text-2xl">Mes réseaux</h3>
-          <div className="my-6 flex gap-x-6">
-            <div>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/bastiendaxhelet/"
-                rel="noopener noreferrer"
-              >
-                <img className="h-24 rounded-2xl" src="instagram.svg" alt="" />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.linkedin.com/in/bastien-daxhelet/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="h-24 rounded-2xl" src="linkedin.svg" alt="" />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://github.com/BastienDax"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="h-24 rounded-2xl" src="github.svg" alt="" />
-              </a>
-            </div>
-          </div>
+
           <h3 className="my-6 font-bold text-2xl">Mon parcours</h3>
           <div className="flex flex-col gap-6">
             <div className="flex gap-x-6">
@@ -167,9 +138,63 @@ export default function AboutPage({ onClick }) {
                 </div>
               </div>
             </div>
+
+            <div className="flex gap-x-6">
+              <div className="h-32 w-32 rounded-2xl flex justify-center items-center overflow-auto bg-yellow">
+                <img className="h-28" src="storylific.jpeg" alt="" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Story Lific</p>
+                <p>Site web pour un podcast</p>
+                <p>Bénévole</p>
+                <div className="flex gap-x-2 mt-2">
+                  <SkillButton text="Wordpress" />
+                  <SkillButton text="Design" />
+                  <SkillButton text="Responsive" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="my-6 font-bold text-2xl">Retour des clients</h3>
+
+          <p>Ajouter avis ici</p>
+
+          <h3 className="my-6 font-bold text-2xl">Mes réseaux</h3>
+          <div className=" flex gap-x-6">
+            <div>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/bastiendaxhelet/"
+                rel="noopener noreferrer"
+              >
+                <img className="h-24 rounded-2xl" src="instagram.svg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/bastien-daxhelet/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="h-24 rounded-2xl" src="linkedin.svg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/BastienDax"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="h-24 rounded-2xl" src="github.svg" alt="" />
+              </a>
+            </div>
           </div>
         </div>
-        <BottomMenu />
+
+        <div className="w-full flex justify-center">
+          <BottomMenu />
+        </div>
       </div>
     </>
   );
