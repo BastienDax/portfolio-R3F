@@ -452,3 +452,62 @@ input:checked + .slider svg {
   background: linear-gradient(rgba(80, 80, 80, 0.3), rgba(128, 128, 128, 0.3));
   backdrop-filter: blur(100px);
 }
+
+.btn-projets {
+  padding: 16px 36px;
+  width: fit-content;
+  border: none;
+  font-size: 16px;
+  background-color: #fafafa;
+  color: #006dd2;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  border-radius: 32px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 16px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  animation: fadeIn 2.4s ease-in-out 2s forwards;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.btn-projets:hover {
+  color: white;
+}
+
+.btn-projets:hover path {
+  fill: white;
+  transition: 0.42s ease-in-out;
+}
+
+.btn-projets:hover:before {
+  width: 200%;
+  height: 300%;
+  border-radius: 100%;
+}
+
+.btn-projets path {
+  fill: #006dd2;
+  transition: 0.42s ease-in-out;
+  animation: fadeIn 2.4s ease-in-out 2s forwards;
+}
+
+.btn-projets:before {
+  content: "";
+  background: #006dd2;
+  position: absolute;
+  width: 0%;
+  bottom: 0;
+  left: 50%;
+  height: 0%;
+  transition: 0.42s ease-in-out;
+  z-index: -1;
+  transform: translateX(-50%) translateY(50%);
+}
