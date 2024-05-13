@@ -443,3 +443,12 @@ input:checked + .slider:before {
 input:checked + .slider svg {
   transform: translateX(33px);
 }
+
+.bg-radio-menu {
+  background: linear-gradient(rgba(80, 80, 80, 0.3), rgba(128, 128, 128, 0.3));
+}
+
+.bg-radio-input {
+  background: linear-gradient(rgba(80, 80, 80, 0.3), rgba(128, 128, 128, 0.3));
+  backdrop-filter: blur(100px);
+}

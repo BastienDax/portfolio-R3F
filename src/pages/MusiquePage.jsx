@@ -27,7 +27,7 @@ export default function MusiquePage({ onClick }) {
         </div>
 
         <div className="w-full h-full text-white overflow-hidden overflow-y-auto flex ">
-          <div className="border-r w-1/4 py-16 px-4 flex flex-col justify-start">
+          <div className="w-1/4 py-16 px-4 flex flex-col justify-start bg-radio-menu">
             <h1 className="mb-6 font-bold text-2xl">Librairie</h1>
 
             <div className="flex flex-col gap-4">
@@ -151,11 +151,33 @@ export default function MusiquePage({ onClick }) {
           <div className="pl-8 py-16 w-3/4 h-full overflow-y-auto">
             <div className="mb-6 flex justify-between mr-8">
               <p className="font-bold text-3xl">Bienvenue</p>
-              <input
-                type="text"
-                placeholder="Rechercher un titre"
-                className="rounded-lg py-1.5 px-3"
-              />
+              <div>
+                <div className="relative mt-2 rounded-lg bg-radio-input">
+                  <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                    <svg
+                      className="h-4 w-4 fill-gray-400 z-50"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        id="Vector"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.728516 5.83335C0.728536 5.0125 0.926528 4.20377 1.3057 3.47574C1.68486 2.74772 2.23402 2.12188 2.9066 1.65131C3.57917 1.18074 4.35531 0.879319 5.16919 0.772617C5.98308 0.665916 6.81069 0.757079 7.58183 1.03838C8.35297 1.31967 9.0449 1.7828 9.59892 2.38849C10.1529 2.99417 10.5527 3.72453 10.7643 4.51764C10.9759 5.31074 10.9931 6.14318 10.8145 6.94435C10.6358 7.74552 10.2666 8.49178 9.7381 9.11985L12.5585 11.9408C12.6015 11.9809 12.636 12.0292 12.6599 12.0829C12.6838 12.1365 12.6967 12.1945 12.6977 12.2532C12.6987 12.312 12.6879 12.3703 12.6659 12.4248C12.6439 12.4793 12.6112 12.5287 12.5696 12.5703C12.5281 12.6118 12.4786 12.6446 12.4241 12.6666C12.3696 12.6886 12.3113 12.6994 12.2525 12.6984C12.1938 12.6973 12.1359 12.6845 12.0822 12.6606C12.0285 12.6366 11.9802 12.6022 11.9402 12.5592L9.11918 9.73877C8.3753 10.3648 7.46811 10.7653 6.50433 10.8932C5.54054 11.0212 4.56027 10.8712 3.67884 10.4609C2.7974 10.0507 2.05147 9.3972 1.52881 8.5774C1.00615 7.7576 0.728495 6.80559 0.728516 5.83335ZM5.83268 1.60418C4.71104 1.60418 3.63533 2.04975 2.84221 2.84288C2.04909 3.636 1.60352 4.7117 1.60352 5.83335C1.60352 6.95499 2.04909 8.0307 2.84221 8.82382C3.63533 9.61694 4.71104 10.0625 5.83268 10.0625C6.95433 10.0625 8.03003 9.61694 8.82315 8.82382C9.61628 8.0307 10.0618 6.95499 10.0618 5.83335C10.0618 4.7117 9.61628 3.636 8.82315 2.84288C8.03003 2.04975 6.95433 1.60418 5.83268 1.60418Z"
+                        fill-opacity="0.92"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    type="test"
+                    name="text"
+                    id="text"
+                    className="block w-full bg-radio-input rounded-lg py-1.5 pl-10 placeholder:text-gray-400 sm:text-sm sm:leading-6"
+                    placeholder="Rechercher une musique"
+                  />
+                </div>
+              </div>
             </div>
             <p className="font-bold text-xl">Récemment ajoutés</p>
             <div className="my-4 flex gap-6 overflow-auto whitespace-nowrap pb-4 pr-8">

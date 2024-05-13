@@ -38,7 +38,10 @@ export default function ContactPage({ onClick }) {
 
             <div>
               <h1 className="mt-6 mb-4 font-bold text-2xl">Bastien Daxhelet</h1>
-              <a className="flex items-center gap-2" href="">
+              <a
+                className="flex items-center gap-2"
+                href={"mailto:bastien.daxhelet@gmail.com"}
+              >
                 <svg
                   className="h-4"
                   viewBox="0 0 14 14"
@@ -53,7 +56,10 @@ export default function ContactPage({ onClick }) {
                 </svg>
                 <p>bastien.daxhelet@gmail.com</p>
               </a>
-              <a className="flex items-center gap-2" href="">
+              <a
+                className="flex items-center gap-2"
+                href={"tel:+1 367 380 3028"}
+              >
                 <svg
                   className="h-4"
                   viewBox="0 0 14 15"
