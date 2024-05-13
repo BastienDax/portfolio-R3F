@@ -61,29 +61,35 @@ export default function ProjetsPage({ onClick }) {
                 <p>test</p>
               </div>
               <div className="max-w-80 h-44 bg-white rounded-lg">
-                <img
-                  className="w-full h-44 object-cover rounded-lg"
-                  src="smile.png"
-                  alt=""
-                />
+                <div className="h-44 flex justify-center items-center">
+                  <img
+                    className="h-32 object-cover rounded-lg"
+                    src="smile.png"
+                    alt=""
+                  />
+                </div>
                 <p className="mt-2 text-xl font-bold">SMILE Care Group</p>
                 <p>test</p>
               </div>
               <div className="max-w-80 h-44 bg-white rounded-lg">
-                <img
-                  className="w-full h-44 object-cover rounded-lg"
-                  src="unisaide.png"
-                  alt=""
-                />
+                <div className="flex justify-center items-center overflow-auto rounded-lg">
+                  <img
+                    className="h-44 object-cover rounded-lg"
+                    src="unisaide.png"
+                    alt=""
+                  />
+                </div>
                 <p className="mt-2 text-xl font-bold">Unisaide</p>
                 <p>test</p>
               </div>
               <div className="max-w-80 h-44 bg-white rounded-lg">
-                <img
-                  className="w-full h-44 object-cover rounded-lg"
-                  src="lystya.png"
-                  alt=""
-                />
+                <div className="h-44 flex justify-center items-center overflow-auto rounded-lg">
+                  <img
+                    className="h-32 object-cover rounded-lg"
+                    src="lystya.png"
+                    alt=""
+                  />
+                </div>
                 <p className="mt-2 text-xl font-bold">Lystya</p>
                 <p>test</p>
               </div>
