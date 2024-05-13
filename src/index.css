@@ -311,6 +311,8 @@ body,
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   background-blend-mode: luminosity;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .interfaceMenu {

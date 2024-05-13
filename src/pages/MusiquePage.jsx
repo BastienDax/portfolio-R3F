@@ -1,4 +1,5 @@
 import React from "react";
+import { BottomMenu } from "../components/BottomMenu";
 
 export default function MusiquePage({ onClick }) {
   return (
@@ -147,12 +148,117 @@ export default function MusiquePage({ onClick }) {
             </div>
           </div>
 
-          <div className="px-8 py-16">
-            <p className="mb-6 font-bold text-3xl">Bienvenue</p>
-            <p>Récemment ajoutés</p>
-            <p>Artistes</p>
+          <div className="pl-8 py-16 w-3/4 h-full overflow-y-auto">
+            <div className="mb-6 flex justify-between mr-8">
+              <p className="font-bold text-3xl">Bienvenue</p>
+              <input
+                type="text"
+                placeholder="Rechercher un titre"
+                className="rounded-lg py-1.5 px-3"
+              />
+            </div>
+            <p className="font-bold text-xl">Récemment ajoutés</p>
+            <div className="my-4 flex gap-6 overflow-auto whitespace-nowrap pb-4 pr-8">
+              <div className="w-full">
+                <img
+                  className="min-h-40 min-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique1.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+
+              <div>
+                <img
+                  className="min-h-40 min-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique2.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+
+              <div>
+                <img
+                  className="min-h-40 min-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique3.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+
+              <div>
+                <img
+                  className="min-h-40 min-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique4.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+
+              <div>
+                <img
+                  className="min-h-40 min-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique5.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+            </div>
+
+            <p className="font-bold text-xl">Titres</p>
+
+            <div className="my-4 flex gap-6 overflow-auto whitespace-nowrap pr-8">
+              <div>
+                <img
+                  className="min-h-40 min-w-40 max-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique6.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+
+              <div>
+                <img
+                  className="min-h-40 min-w-40 max-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique7.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+
+              <div>
+                <img
+                  className="min-h-40 min-w-40 max-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique8.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+
+              <div>
+                <img
+                  className="min-h-40 min-w-40 max-w-40 rounded-lg object-cover"
+                  src="musique-cover/musique9.jpg"
+                  alt=""
+                />
+                <p className="mt-2 font-bold">Nuance de Bleu</p>
+                <p className="text-sm">Azure Melody</p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <div className="w-full flex justify-center">
+        <BottomMenu />
       </div>
     </div>
   );

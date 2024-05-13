@@ -4,7 +4,7 @@ import { BottomMenu } from "../components/BottomMenu";
 
 export default function AboutPage({ onClick }) {
   return (
-    <>
+    <div>
       <div className="container">
         <div className="absolute top-4 left-4">
           <button
@@ -191,11 +191,11 @@ export default function AboutPage({ onClick }) {
             </div>
           </div>
         </div>
-
-        <div className="w-full flex justify-center">
-          <BottomMenu />
-        </div>
       </div>
-    </>
+
+      <div className="w-full flex justify-center">
+        <BottomMenu />
+      </div>
+    </div>
   );
 }
