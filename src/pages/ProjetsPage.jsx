@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { BottomMenu } from "../components/BottomMenu";
+
 import Fillup from "./projets/Fillup";
-import { useState } from "react";
+import ArdenneVet from "./projets/ArdenneVet";
+import Smile from "./projets/Smile";
+import Unisaide from "./projets/Unisaide";
+import Lystya from "./projets/Lystya";
+import StoryLific from "./projets/StoryLific";
 
 export default function ProjetsPage({ onClick }) {
   const [currentPage, setCurrentPage] = useState(0);
@@ -15,11 +20,15 @@ export default function ProjetsPage({ onClick }) {
       case 1:
         return <Fillup onClick={handleClick} />;
       case 2:
-        return <ProjetsPage onClick={handleClick} />;
+        return <ArdenneVet onClick={handleClick} />;
       case 3:
-        return <ContactPage onClick={handleClick} />;
+        return <Smile onClick={handleClick} />;
       case 4:
-        return <MusiquePage onClick={handleClick} />;
+        return <Unisaide onClick={handleClick} />;
+      case 5:
+        return <Lystya onClick={handleClick} />;
+      case 6:
+        return <StoryLific onClick={handleClick} />;
       default:
         return null;
     }
@@ -64,75 +73,102 @@ export default function ProjetsPage({ onClick }) {
               </div>
               <div className="mt-16 mb-20">
                 <p className="mb-8 font-bold text-4xl">Mes projets clients</p>
-                <div className="w-full grid grid-cols-3 gap-12">
-                  <button onClick={() => setCurrentPage(1)}>
-                    <div className="max-w-80 overflow-auto">
+                <div className="w-full grid grid-cols-3 gap-x-12 gap-y-32">
+                  <div className="max-w-80 h-44 bg-white rounded-lg">
+                    <button
+                      onClick={() => setCurrentPage(1)}
+                      className="text-start"
+                    >
                       <img
                         className="w-full h-44 object-cover rounded-lg"
-                        src="fillup.png"
+                        src="projets-logo/fillup.png"
                         alt=""
                       />
                       <p className="mt-2 text-xl font-bold">FillUP</p>
                       <p>Plateforme pour de l'événementiel</p>
-                    </div>
-                  </button>
-
-                  <div className="max-w-80 h-44 bg-white rounded-lg">
-                    <div className="w-full h-44 flex items-center justify-center">
-                      <img
-                        className="h-32 rounded-lg"
-                        src="ardennevet.svg"
-                        alt=""
-                      />
-                    </div>
-                    <p className="mt-2 text-xl font-bold">
-                      Ardenne Vétérinaires
-                    </p>
-                    <p>Site web d'une clinique vétérinaire</p>
+                    </button>
                   </div>
                   <div className="max-w-80 h-44 bg-white rounded-lg">
-                    <div className="h-44 flex justify-center items-center">
-                      <img
-                        className="h-32 object-cover rounded-lg"
-                        src="smile.png"
-                        alt=""
-                      />
-                    </div>
-                    <p className="mt-2 text-xl font-bold">SMILE Care Group</p>
-                    <p>Site web pour des soins médicaux infirmiers</p>
+                    <button
+                      onClick={() => setCurrentPage(2)}
+                      className="text-start"
+                    >
+                      <div className="w-full h-44 flex items-center justify-center">
+                        <img
+                          className="h-32 rounded-lg"
+                          src="projets-logo/ardennevet.svg"
+                          alt=""
+                        />
+                      </div>
+                      <p className="mt-2 text-xl font-bold">
+                        Ardenne Vétérinaires
+                      </p>
+                      <p>Site web d'une clinique vétérinaire</p>
+                    </button>
                   </div>
                   <div className="max-w-80 h-44 bg-white rounded-lg">
-                    <div className="flex justify-center items-center overflow-auto rounded-lg">
-                      <img
-                        className="h-44 object-cover rounded-lg"
-                        src="unisaide.png"
-                        alt=""
-                      />
-                    </div>
-                    <p className="mt-2 text-xl font-bold">Unisaide</p>
-                    <p>Plateforme d'entraide pour les étudiants</p>
+                    <button
+                      onClick={() => setCurrentPage(3)}
+                      className="text-start"
+                    >
+                      <div className="h-44 flex justify-center items-center">
+                        <img
+                          className="h-32 object-cover rounded-lg"
+                          src="projets-logo/smile.png"
+                          alt=""
+                        />
+                      </div>
+                      <p className="mt-2 text-xl font-bold">SMILE Care Group</p>
+                      <p>Site web pour des soins médicaux infirmiers</p>
+                    </button>
                   </div>
                   <div className="max-w-80 h-44 bg-white rounded-lg">
-                    <div className="h-44 flex justify-center items-center overflow-auto rounded-lg">
-                      <img
-                        className="h-32 object-cover rounded-lg"
-                        src="lystya.png"
-                        alt=""
-                      />
-                    </div>
-                    <p className="mt-2 text-xl font-bold">Lystya</p>
-                    <p>Plateforme d'entraide entre citoyens</p>
+                    <button
+                      onClick={() => setCurrentPage(4)}
+                      className="text-start"
+                    >
+                      <div className="flex justify-center items-center overflow-auto rounded-lg">
+                        <img
+                          className="h-44 object-cover rounded-lg"
+                          src="projets-logo/unisaide.png"
+                          alt=""
+                        />
+                      </div>
+                      <p className="mt-2 text-xl font-bold">Unisaide</p>
+                      <p>Plateforme d'entraide pour les étudiants</p>
+                    </button>
                   </div>
                   <div className="max-w-80 h-44 bg-white rounded-lg">
-                    <div className="flex justify-center bg-yellow items-center overflow-auto rounded-lg">
-                      <img
-                        className="h-44 object-cover rounded-lg"
-                        src="storylific.jpeg"
-                        alt=""
-                      />
-                    </div>
-                    <p className="mt-2 text-xl font-bold">StoryLific</p>
-                    <p>Site web pour un podcast</p>
+                    <button
+                      onClick={() => setCurrentPage(5)}
+                      className="text-start"
+                    >
+                      <div className="h-44 flex justify-center items-center overflow-auto rounded-lg">
+                        <img
+                          className="h-32 object-cover rounded-lg"
+                          src="projets-logo/lystya.png"
+                          alt=""
+                        />
+                      </div>
+                      <p className="mt-2 text-xl font-bold">Lystya</p>
+                      <p>Plateforme d'entraide entre citoyens</p>
+                    </button>
+                  </div>
+                  <div className="max-w-80 h-44 bg-white rounded-lg">
+                    <button
+                      onClick={() => setCurrentPage(6)}
+                      className="text-start w-full"
+                    >
+                      <div className="flex justify-center bg-yellow items-center overflow-auto rounded-lg">
+                        <img
+                          className="h-44 object-cover rounded-lg"
+                          src="projets-logo/storylific.jpeg"
+                          alt=""
+                        />
+                      </div>
+                      <p className="mt-2 text-xl font-bold">StoryLific</p>
+                      <p>Site web pour un podcast</p>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -146,7 +182,7 @@ export default function ProjetsPage({ onClick }) {
       )}
 
       {currentPage !== 0 && (
-        <div className="flex justify-center items-centers">
+        <div className="flex justify-center items-center">
           {renderCurrentPage()}
         </div>
       )}

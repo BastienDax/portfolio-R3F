@@ -1,4 +1,5 @@
 import React from "react";
+import { BottomMenu } from "../../components/BottomMenu";
 
 export default function Fillup({ onClick }) {
   return (
@@ -24,6 +25,22 @@ export default function Fillup({ onClick }) {
             </svg>
           </button>
         </div>
+
+        <div className="py-10 px-16 h-full text-white overflow-auto">
+          <p className="font-bold text-3xl">FillUP</p>
+          <img className="h-80 rounded-lg" src="fillup.png" alt="" />
+          <p>
+            Tortor viverra mollis mauris malesuada sed lobortis. Pharetra
+            porttitor amet ac ipsum venenatis. Tristique et neque non sit
+            phasellus mattis hac morbi facilisis.Tortor viverra mollis mauris
+            malesuada sed lobortis. Pharetra porttitor amet ac ipsum venenatis.
+            Tristique et neque non sit phasellus mattis hac morbi facilisis.
+          </p>
+        </div>
+      </div>
+
+      <div className="w-full flex justify-center">
+        <BottomMenu />
       </div>
     </div>
   );

@@ -59,7 +59,7 @@ export default function AboutPage({ onClick }) {
           <div className="flex flex-col gap-6">
             <div className="flex gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl overflow-hidden">
-                <img src="fillup.png" alt="" />
+                <img src="projets-logo/fillup.png" alt="" />
               </div>
               <div>
                 <p className="font-bold text-lg">FillUP</p>
@@ -76,7 +76,11 @@ export default function AboutPage({ onClick }) {
             </div>
             <div className="flex gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl flex justify-center items-center">
-                <img className="w-20" src="ardennevet.svg" alt="" />
+                <img
+                  className="w-20"
+                  src="projets-logo/ardennevet.svg"
+                  alt=""
+                />
               </div>
               <div>
                 <p className="font-bold text-lg">Ardenne Vétérinaires</p>
@@ -92,7 +96,7 @@ export default function AboutPage({ onClick }) {
 
             <div className="flex gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl flex justify-center items-center">
-                <img src="smile.png" alt="" />
+                <img src="projets-logo/smile.png" alt="" />
               </div>
               <div>
                 <p className="font-bold text-lg">SMILE Care Group</p>
@@ -108,7 +112,11 @@ export default function AboutPage({ onClick }) {
 
             <div className="flex gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl overflow-auto">
-                <img className="h-full" src="unisaide.png" alt="" />
+                <img
+                  className="h-full"
+                  src="projets-logo/unisaide.png"
+                  alt=""
+                />
               </div>
               <div>
                 <p className="font-bold text-lg">Unisaide</p>
@@ -125,7 +133,7 @@ export default function AboutPage({ onClick }) {
 
             <div className="flex gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl flex justify-center items-center">
-                <img src="lystya.png" alt="" />
+                <img src="projets-logo/lystya.png" alt="" />
               </div>
               <div>
                 <p className="font-bold text-lg">Lystya</p>
@@ -141,7 +149,11 @@ export default function AboutPage({ onClick }) {
 
             <div className="flex gap-x-6">
               <div className="h-32 w-32 rounded-2xl flex justify-center items-center overflow-auto bg-yellow">
-                <img className="h-28" src="storylific.jpeg" alt="" />
+                <img
+                  className="h-28"
+                  src="projets-logo/storylific.jpeg"
+                  alt=""
+                />
               </div>
               <div>
                 <p className="font-bold text-lg">Story Lific</p>
@@ -168,7 +180,11 @@ export default function AboutPage({ onClick }) {
                 href="https://www.instagram.com/bastiendaxhelet/"
                 rel="noopener noreferrer"
               >
-                <img className="h-24 rounded-2xl" src="instagram.svg" alt="" />
+                <img
+                  className="h-24 rounded-2xl"
+                  src="socials-logo/instagram.svg"
+                  alt=""
+                />
               </a>
             </div>
             <div>
@@ -177,7 +193,11 @@ export default function AboutPage({ onClick }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="h-24 rounded-2xl" src="linkedin.svg" alt="" />
+                <img
+                  className="h-24 rounded-2xl"
+                  src="socials-logo/linkedin.svg"
+                  alt=""
+                />
               </a>
             </div>
             <div>
@@ -186,7 +206,11 @@ export default function AboutPage({ onClick }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="h-24 rounded-2xl" src="github.svg" alt="" />
+                <img
+                  className="h-24 rounded-2xl"
+                  src="socials-logo/github.svg"
+                  alt=""
+                />
               </a>
             </div>
           </div>

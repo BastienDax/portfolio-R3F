@@ -99,7 +99,7 @@ export default function ContactPage({ onClick }) {
                 >
                   <img
                     className="h-24 rounded-2xl"
-                    src="instagram.svg"
+                    src="socials-logo/instagram.svg"
                     alt=""
                   />
                 </a>
@@ -110,7 +110,11 @@ export default function ContactPage({ onClick }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className="h-24 rounded-2xl" src="linkedin.svg" alt="" />
+                  <img
+                    className="h-24 rounded-2xl"
+                    src="socials-logo/linkedin.svg"
+                    alt=""
+                  />
                 </a>
               </div>
               <div>
@@ -119,7 +123,11 @@ export default function ContactPage({ onClick }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className="h-24 rounded-2xl" src="github.svg" alt="" />
+                  <img
+                    className="h-24 rounded-2xl"
+                    src="socials-logo/github.svg"
+                    alt=""
+                  />
                 </a>
               </div>
             </div>
