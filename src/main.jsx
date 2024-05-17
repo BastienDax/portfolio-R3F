@@ -9,13 +9,12 @@ function Loading() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // Simulez une progression de chargement
       if (progress < 100) {
         setProgress((prevProgress) => prevProgress + 1);
       } else {
         clearInterval(interval);
       }
-    }, 100); // Changez le délai selon vos besoins
+    }, 100);
 
     return () => {
       clearInterval(interval);

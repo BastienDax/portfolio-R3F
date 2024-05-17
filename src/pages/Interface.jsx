@@ -139,11 +139,9 @@ export default function Interface() {
           )}
 
           {cameraAccepted === false && !cameraAccepted && (
-            <Float rotationIntensity={0.2}>
-              <Html center position={[2, 0, -25]}>
-                <InterfaceMenu />
-              </Html>
-            </Float>
+            <Html center position={[2, 0, -25]}>
+              <InterfaceMenu />
+            </Html>
           )}
         </Canvas>
       )}

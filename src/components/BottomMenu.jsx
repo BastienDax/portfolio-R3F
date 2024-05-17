@@ -116,7 +116,7 @@ export const BottomMenu = () => {
             </defs>
           </svg>
         </div>
-        <div className="icon">
+        {/* <div className="icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -142,7 +142,7 @@ export const BottomMenu = () => {
               </clipPath>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -42,17 +42,17 @@ export default function AboutPage({ onClick }) {
           </div>
           <h1 className="mt-6 font-bold text-2xl">Bastien Daxhelet</h1>
           <h2 className="my-6">
-            Tortor viverra mollis mauris malesuada sed lobortis. Pharetra
-            porttitor amet ac ipsum venenatis. Tristique et neque non sit
-            phasellus mattis hac morbi facilisis.
+            Depuis mon plus jeune âge, je me suis plongé avec passion dans
+            l'univers de la technologie et de l'innovation. J'ai déménagé de
+            Belgique pour m'installer à Québec pour découvrir les opportunites
           </h2>
-          <h3 className="font-bold text-2xl">Ce que je réalise</h3>
+          <h3 className="font-bold text-2xl">Mon objectif</h3>
           <p className="my-6">
-            Tortor viverra mollis mauris malesuada sed lobortis. Pharetra
-            porttitor amet ac ipsum venenatis. Tristique et neque non sit
-            phasellus mattis hac morbi facilisis.Tortor viverra mollis mauris
-            malesuada sed lobortis. Pharetra porttitor amet ac ipsum venenatis.
-            Tristique et neque non sit phasellus mattis hac morbi facilisis.
+            Je crée des expériences en ligne qui vont au-delà des attentes, en
+            particulier dans le domaine captivant du webXR. Chaque projet est
+            pour moi une opportunité d'offrir aux utilisateurs une immersion
+            totale, où chaque interaction est une expérience unique et
+            captivante.
           </p>
 
           <h3 className="my-6 font-bold text-2xl">Mon parcours</h3>
