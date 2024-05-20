@@ -6,7 +6,6 @@ import ArdenneVet from "./projets/ArdenneVet";
 import Smile from "./projets/Smile";
 import Unisaide from "./projets/Unisaide";
 import Lystya from "./projets/Lystya";
-import StoryLific from "./projets/StoryLific";
 
 export default function ProjetsPage({ onClick }) {
   const [currentPage, setCurrentPage] = useState(0);
@@ -27,8 +26,7 @@ export default function ProjetsPage({ onClick }) {
         return <Unisaide onClick={handleClick} />;
       case 5:
         return <Lystya onClick={handleClick} />;
-      case 6:
-        return <StoryLific onClick={handleClick} />;
+
       default:
         return null;
     }
@@ -158,22 +156,6 @@ export default function ProjetsPage({ onClick }) {
                       </div>
                       <p className="mt-2 text-xl font-bold">Lystya</p>
                       <p>Plateforme d'entraide entre citoyens</p>
-                    </button>
-                  </div>
-                  <div className="max-w-80 h-44 bg-white rounded-lg">
-                    <button
-                      onClick={() => setCurrentPage(6)}
-                      className="text-start w-full"
-                    >
-                      <div className="flex justify-center bg-yellow items-center overflow-auto rounded-lg">
-                        <img
-                          className="h-44 object-cover rounded-lg"
-                          src="projets-logo/storylific.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <p className="mt-2 text-xl font-bold">StoryLific</p>
-                      <p>Podcast</p>
                     </button>
                   </div>
                 </div>

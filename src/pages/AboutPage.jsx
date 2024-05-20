@@ -154,26 +154,6 @@ export default function AboutPage({ onClick }) {
                 </div>
               </div>
             </div>
-
-            <div className="flex gap-x-6">
-              <div className="h-32 w-32 rounded-2xl flex justify-center items-center overflow-auto bg-yellow">
-                <img
-                  className="h-28"
-                  src="projets-logo/storylific.jpeg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <p className="font-bold text-lg">Story Lific</p>
-                <p>Site web pour un podcast</p>
-                <p>Bénévole</p>
-                <div className="flex gap-x-2 mt-2">
-                  <SkillButton text="Wordpress" />
-                  <SkillButton text="Design" />
-                  <SkillButton text="Responsive" />
-                </div>
-              </div>
-            </div>
           </div>
 
           <h3 className="my-6 font-extrabold text-2xl">Mes réseaux</h3>

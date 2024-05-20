@@ -34,21 +34,6 @@ export default function ArdenneVet({ onClick }) {
               src="projets-logo/ardennevet.svg"
               alt=""
             />
-            <img
-              className="h-80 rounded-lg bg-white"
-              src="projets-logo/ardennevet.svg"
-              alt=""
-            />
-            <img
-              className="h-80 rounded-lg bg-white"
-              src="projets-logo/ardennevet.svg"
-              alt=""
-            />
-            <img
-              className="h-80 rounded-lg bg-white"
-              src="projets-logo/ardennevet.svg"
-              alt=""
-            />
           </div>
 
           <div className="my-5">

@@ -270,18 +270,18 @@ body,
   gap: 16px;
 }
 .player .icons svg {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 .player .title {
   color: #fafafa;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 19px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 .player .options {
@@ -290,8 +290,8 @@ body,
 }
 
 .player .options svg {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   display: grid;
   place-content: center;
 }

@@ -33,21 +33,6 @@ export default function Smile({ onClick }) {
               src="projets-logo/smile.png"
               alt=""
             />
-            <img
-              className="h-80 rounded-lg bg-white"
-              src="projets-logo/smile.png"
-              alt=""
-            />
-            <img
-              className="h-80 rounded-lg bg-white"
-              src="projets-logo/smile.png"
-              alt=""
-            />
-            <img
-              className="h-80 rounded-lg bg-white"
-              src="projets-logo/smile.png"
-              alt=""
-            />
           </div>
 
           <div className="my-5">

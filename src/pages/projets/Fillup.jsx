@@ -34,21 +34,6 @@ export default function Fillup({ onClick }) {
               src="projets-logo/fillup.png"
               alt=""
             />
-            <img
-              className="h-80 rounded-lg"
-              src="projets-logo/fillup.png"
-              alt=""
-            />
-            <img
-              className="h-80 rounded-lg"
-              src="projets-logo/fillup.png"
-              alt=""
-            />
-            <img
-              className="h-80 rounded-lg"
-              src="projets-logo/fillup.png"
-              alt=""
-            />
           </div>
 
           <p>
@@ -56,15 +41,6 @@ export default function Fillup({ onClick }) {
             web destinée à réduire les files d'attente dans les bars et lors des
             événements.
           </p>
-
-          <div className="grid grid-cols-2 grid-rows-3 gap-5 my-10">
-            <div className="row-span-2 bg-white rounded-lg">1</div>
-            <div className="bg-white h-48 rounded-lg">2</div>
-            <div className="row-span-2 col-start-2 row-start-2 bg-white rounded-lg">
-              3
-            </div>
-            <div className="row-start-3 bg-white rounded-lg">4</div>
-          </div>
 
           <div className="my-5">
             <p className="mb-2 text-2xl font-bold">Objectif du projet</p>

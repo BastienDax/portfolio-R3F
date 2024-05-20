@@ -25,8 +25,96 @@ export default function Unisaide({ onClick }) {
             </svg>
           </button>
         </div>
+        <div className="py-10 px-16 h-full text-white overflow-auto">
+          <p className="font-bold text-3xl mb-5">Unisaide</p>
+          <div className="flex gap-5 overflow-auto pb-5 mb-5">
+            <img
+              className="h-80 rounded-lg"
+              src="projets-logo/unisaide.png"
+              alt=""
+            />
+          </div>
 
-        <div className="py-10 px-16 h-full text-white overflow-auto">test</div>
+          <p>
+            Projet à côté de mes études : Plateforme d'entraide entre les
+            étudiants.
+          </p>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Objectif du projet</p>
+
+            <p>
+              Un accès à l'entraide et au partage pour chaque étudiant afin,
+              d'apprendre, de s'améliorer et de communiquer en un seul et même
+              endroit.
+              <br />
+              <br />
+              J'ai souhaité créer une plateforme en ligne pour les étudiants
+              pour qu'ils puissent s'entraider dans leurs cours. Etant tous dans
+              le même bateau, il est plus facile de demander de l'aider.
+              L'objectif principale est de réunir et s'entraider sur une seule
+              et même plateforme via un feed de discusion public et privée.
+              <br />
+              <br />
+              Un accès à l'entraide et au partage pour chaque étudiant afin,
+              d'apprendre, de s'améliorer et de communiquer en un seul et même
+              endroit.
+            </p>
+          </div>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Ce que j'ai réalisé</p>
+
+            <p>
+              J'ai développé une plateforme web où les étudiants pouvaient
+              s'inscrire, partager leurs problèmes scolaires, rechercher des
+              solutions pour certains cours, et communiquer via une messagerie
+              privée intégrée. De plus, un blog était disponible pour partager
+              des actualités et des projets.
+              <br />
+              <br />
+              Initialement prévu comme un projet gratuit, j'ai sollicité l'aide
+              de certaines écoles et universités. Cependant, certains ont voulu
+              mettre leur logo sur le site et obtenir l'exclusivité, ce que j'ai
+              refusé. En conséquence, je n'ai pas pu maintenir la plateforme à
+              jour et le projet a pris fin. Mon abandon des études dès la
+              première année a également contribué à perdre le lien avec le
+              milieu scolaire.
+            </p>
+          </div>
+
+          <div className="flex gap-5 justify-center my-10">
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/react.svg"
+                alt="react"
+                className="h-full object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/nodejs.svg"
+                alt="nodejs"
+                className="h-full object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/mongodb.svg"
+                alt="mongodb"
+                className="h-full object-cover"
+              />
+            </div>
+
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/figma.svg"
+                alt="figma"
+                className=" object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="w-full flex justify-center">

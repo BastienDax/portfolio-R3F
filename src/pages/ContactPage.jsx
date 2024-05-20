@@ -5,7 +5,7 @@ export default function ContactPage({ onClick }) {
   return (
     <>
       <div>
-        <div className="container flex overflow-y-auto">
+        <div className="container flex overflow-auto">
           <div className="absolute top-4 left-4">
             <button
               className="h-9 w-9 bg-gray-300 bg-opacity-15 rounded-full flex justify-center pt-1"
@@ -26,7 +26,8 @@ export default function ContactPage({ onClick }) {
               </svg>
             </button>
           </div>
-          <div className="py-10 px-16 h-full text-white overflow-hidden">
+
+          <div className="py-10 pl-16 w-2/3 h-full text-white">
             <div>
               <img
                 className="h-48 w-48 rounded-full"
@@ -37,54 +38,14 @@ export default function ContactPage({ onClick }) {
 
             <div>
               <h1 className="mt-6 mb-2 font-bold text-3xl">Bastien Daxhelet</h1>
-              <h2 className="mb-2 text-xl">Développeur Web React ThreeJS</h2>
+              <h2 className="mb-2 text-xl">
+                Développeur Créatif <br /> React | JavaScript | ThreeJS
+              </h2>
               <h3>Québec, QC, Canada</h3>
             </div>
-
-            <h3 className="my-6 font-bold text-2xl">Mes réseaux</h3>
-            <div className=" flex gap-x-6">
-              <div>
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/bastiendaxhelet/"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    className="h-24 rounded-2xl"
-                    src="socials-logo/instagram.svg"
-                    alt="Instagram"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://www.linkedin.com/in/bastien-daxhelet/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    className="h-24 rounded-2xl"
-                    src="socials-logo/linkedin.svg"
-                    alt="Linkedin"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://github.com/BastienDax"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    className="h-24 rounded-2xl"
-                    src="socials-logo/github.svg"
-                    alt="GitHub"
-                  />
-                </a>
-              </div>
-            </div>
           </div>
-          <div className="py-10 px-16 h-full text-white overflow-hidden">
+
+          <div className="py-10 pr-16 h-full text-white">
             <p className="mt-6 mb-4 font-bold text-3xl">Discutons ensemble !</p>
             <p className="mb-8">
               Si vous avez une idée, un projet ou une demande, n'hésitez pas.
@@ -134,7 +95,49 @@ export default function ContactPage({ onClick }) {
               </svg>
               <p>+1 367-380-3028</p>
             </a>
-          </div>{" "}
+
+            <div className="flex gap-5 mt-10">
+              <div>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/bastiendaxhelet/"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="h-16 rounded-2xl"
+                    src="socials-logo/instagram.svg"
+                    alt="Instagram"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/bastien-daxhelet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="h-16 rounded-2xl"
+                    src="socials-logo/linkedin.svg"
+                    alt="Linkedin"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/BastienDax"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="h-16 rounded-2xl"
+                    src="socials-logo/github.svg"
+                    alt="GitHub"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="w-full flex justify-center">

@@ -26,7 +26,64 @@ export default function Lystya({ onClick }) {
           </button>
         </div>
 
-        <div className="py-10 px-16 h-full text-white overflow-auto">test</div>
+        <div className="py-10 px-16 h-full text-white overflow-auto">
+          <p className="font-bold text-3xl mb-5">Lystya</p>
+          <div className="flex gap-5 overflow-auto pb-5 mb-5">
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/lystya.png"
+              alt=""
+            />
+          </div>
+
+          <p>Projet d'une association : Plateforme d'entraide citoyenne.</p>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Objectif du projet</p>
+
+            <p>
+              Une plateforme permettant aux habitants d'un village de proposer
+              leurs services ou leur aide et d'autres peuvent partager leurs
+              difficultés.
+            </p>
+          </div>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Ce que j'ai réalisé</p>
+
+            <p>
+              J'ai créé une plateforme web où les citoyens pouvaient s'inscrire,
+              partager leurs besoins et entrer en contact les uns avec les
+              autres. Son objectif principal était de rassembler et de renforcer
+              les actions citoyennes actuelles et futures.
+            </p>
+          </div>
+
+          <div className="flex gap-5 justify-center my-10">
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/php.svg"
+                alt="react"
+                className="object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/mysql.svg"
+                alt="nodejs"
+                className="object-cover"
+              />
+            </div>
+
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/figma.svg"
+                alt="figma"
+                className=" object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="w-full flex justify-center">
