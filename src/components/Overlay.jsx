@@ -21,7 +21,7 @@ export const Overlay = () => {
               Scroll pour découvrir mon univers
             </p>
             <div className="intro__scroll top-[70vh] md:top-[80vh]">
-              <div className="scroll-icon ex-1">
+              <div className="hidden sm:block scroll-icon ex-1">
                 <span className="wheel"></span>
               </div>
             </div>
