@@ -25,8 +25,70 @@ export default function Smile({ onClick }) {
             </svg>
           </button>
         </div>
+        <div className="py-10 px-16 h-full text-white overflow-auto">
+          <p className="font-bold text-3xl mb-5">SMILE</p>
+          <div className="flex gap-5 overflow-auto pb-5 mb-5">
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/smile.png"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/smile.png"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/smile.png"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/smile.png"
+              alt=""
+            />
+          </div>
 
-        <div className="py-10 px-16 h-full text-white overflow-auto">test</div>
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Objectif du projet</p>
+
+            <p>
+              Créer un site web pour augmenter la visibilité en ligne des
+              services médicaux infirmiers Lejeune. Présenter leurs services,
+              leur équipe et pouvoir les contacter.
+            </p>
+          </div>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Ce que j'ai réalisé</p>
+
+            <p>
+              Une page unique (onePage) bien structurée et exhaustive qui
+              présente en détail SMILE et ses services. Elle comporte également
+              une section consacrée au recrutement ainsi qu'un formulaire de
+              contact incluant les informations indispensables dont un client
+              pourrait avoir besoin.
+            </p>
+          </div>
+
+          <div className="flex gap-5 justify-center my-10">
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/react.svg"
+                alt="react"
+                className="object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/figma.svg"
+                alt="figma"
+                className=" object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="w-full flex justify-center">

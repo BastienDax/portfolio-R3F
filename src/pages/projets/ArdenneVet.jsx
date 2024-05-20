@@ -26,7 +26,96 @@ export default function ArdenneVet({ onClick }) {
           </button>
         </div>
 
-        <div className="py-10 px-16 h-full text-white overflow-auto">test</div>
+        <div className="py-10 px-16 h-full text-white overflow-auto">
+          <p className="font-bold text-3xl mb-5">Ardenne Vétérinaire</p>
+          <div className="flex gap-5 overflow-auto pb-5 mb-5">
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/ardennevet.svg"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/ardennevet.svg"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/ardennevet.svg"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="projets-logo/ardennevet.svg"
+              alt=""
+            />
+          </div>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Objectif du projet</p>
+
+            <p>
+              Créer un site web pour augmenter la visibilité en ligne de la
+              clinique vétérinaire, de présenter leurs services, d'introduire
+              leur équipe, et de faciliter la prise de rendez-vous pour les
+              clients et les appels via la numéro d'urgence.
+              <br />
+              <br />
+              Le site vise également à fournir des informations utiles sur les
+              soins vétérinaires, partager les expériences/retours des clients
+              et à renforcer la crédibilité et la confiance envers la clinique.
+            </p>
+          </div>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Ce que j'ai réalisé</p>
+
+            <p>
+              Le site web que j'ai créé pour la clinique vétérinaire comprend
+              cinq pages : Accueil, Services, Équipe, Galerie Photos et Contact.
+              <br />
+              <br />
+              Chaque page a été conçue pour être claire et épurée, facilitant
+              ainsi la navigation pour toutes les générations. J'ai également
+              intégré une localisation via Google Maps pour simplifier l'accès à
+              la clinique pour les clients.
+              <br />
+              <br />
+              Une compagne publicitaire à été faite sur Google et Facebook.
+            </p>
+          </div>
+
+          <div className="flex gap-5 justify-center my-10">
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/react.svg"
+                alt="react"
+                className="object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/ads.svg"
+                alt="ads"
+                className=" object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/gmaps.svg"
+                alt="gmaps"
+                className=" object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/figma.svg"
+                alt="figma"
+                className=" object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="w-full flex justify-center">

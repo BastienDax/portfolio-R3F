@@ -27,15 +27,122 @@ export default function Fillup({ onClick }) {
         </div>
 
         <div className="py-10 px-16 h-full text-white overflow-auto">
-          <p className="font-bold text-3xl">FillUP</p>
-          <img className="h-80 rounded-lg" src="fillup.png" alt="" />
+          <p className="font-bold text-3xl mb-5">FillUP</p>
+          <div className="flex gap-5 overflow-auto pb-5 mb-5">
+            <img
+              className="h-80 rounded-lg"
+              src="projets-logo/fillup.png"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg"
+              src="projets-logo/fillup.png"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg"
+              src="projets-logo/fillup.png"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg"
+              src="projets-logo/fillup.png"
+              alt=""
+            />
+          </div>
+
           <p>
-            Tortor viverra mollis mauris malesuada sed lobortis. Pharetra
-            porttitor amet ac ipsum venenatis. Tristique et neque non sit
-            phasellus mattis hac morbi facilisis.Tortor viverra mollis mauris
-            malesuada sed lobortis. Pharetra porttitor amet ac ipsum venenatis.
-            Tristique et neque non sit phasellus mattis hac morbi facilisis.
+            J'ai été mandaté par cette startup pour développer une application
+            web destinée à réduire les files d'attente dans les bars et lors des
+            événements.
           </p>
+
+          <div className="grid grid-cols-2 grid-rows-3 gap-5 my-10">
+            <div className="row-span-2 bg-white rounded-lg">1</div>
+            <div className="bg-white h-48 rounded-lg">2</div>
+            <div className="row-span-2 col-start-2 row-start-2 bg-white rounded-lg">
+              3
+            </div>
+            <div className="row-start-3 bg-white rounded-lg">4</div>
+          </div>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Objectif du projet</p>
+
+            <p>
+              Créer une plateforme en ligne intuitive pour les établissements et
+              leurs clients. Les consommateurs pourront facilement commander et
+              payer depuis leur téléphone. Les bars, eux, recevront les
+              commandes en temps réel pour les préparer.
+            </p>
+          </div>
+
+          <div className="my-5">
+            <p className="mb-2 text-2xl font-bold">Ce que j'ai réalisé</p>
+
+            <p>
+              Une application web en quatre parties : consommateurs, managers,
+              établissements et administration.
+              <br />
+              <br />
+              1. Le consommateur scanne un QR code depuis le menu digital de
+              l'établissement, passe sa commande et la paie. Une page d'attente
+              affiche l'état de la commande. 2.
+              <br />
+              <br />
+              2. Un manager peut choisir un abonnement pour le service Fillup,
+              encoder les données nécessaires pour mettre les établissements en
+              ligne, et accéder à des statistiques détaillées. La gestion des
+              exports de données vers Excel est également incluse.
+              <br />
+              <br />
+              3. Les serveurs utilisent cette partie pour traiter les commandes
+              reçues et mettre à jour leur statut en temps réel, informant ainsi
+              les consommateurs.
+              <br />
+              <br />
+              4. Fillup peut voir des statistiques détaillées de toute la
+              plateforme et gérer les utilisateurs.
+            </p>
+          </div>
+
+          <div className="flex gap-5 justify-center my-10">
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/react.svg"
+                alt="react"
+                className="h-full object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/nodejs.svg"
+                alt="nodejs"
+                className="h-full object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/mongodb.svg"
+                alt="mongodb"
+                className="h-full object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/stripe.svg"
+                alt="stripe"
+                className=" object-cover"
+              />
+            </div>
+            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+              <img
+                src="icons-tech/figma.svg"
+                alt="figma"
+                className=" object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
