@@ -31,8 +31,8 @@ export default function Lystya({ onClick }) {
           <div className="flex gap-5 overflow-auto pb-5 mb-5">
             <img
               className="h-80 rounded-lg bg-white"
-              src="projets-logo/lystya.png"
-              alt=""
+              src="lystya/one.jpeg"
+              alt="lystya"
             />
           </div>
 

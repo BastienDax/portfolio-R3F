@@ -30,7 +30,17 @@ export default function Unisaide({ onClick }) {
           <div className="flex gap-5 overflow-auto pb-5 mb-5">
             <img
               className="h-80 rounded-lg"
-              src="projets-logo/unisaide.png"
+              src="unisaide/mockup1.png"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg"
+              src="unisaide/mockup2.png"
+              alt=""
+            />
+            <img
+              className="h-80 rounded-lg"
+              src="unisaide/mockup3.png"
               alt=""
             />
           </div>

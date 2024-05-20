@@ -92,7 +92,7 @@ export default function ProjetsPage({ onClick }) {
                       <p>Plateforme événementielle</p>
                     </button>
                   </div>
-                  <div className="max-w-80 h-44 bg-white rounded-lg">
+                  <div className="max-w-80 h-44 bg-white rounded-lg flex justify-center">
                     <button
                       onClick={() => setCurrentPage(2)}
                       className="text-start"

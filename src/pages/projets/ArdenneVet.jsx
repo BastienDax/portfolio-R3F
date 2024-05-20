@@ -30,7 +30,7 @@ export default function ArdenneVet({ onClick }) {
           <p className="font-bold text-3xl mb-5">Ardenne Vétérinaire</p>
           <div className="flex gap-5 overflow-auto pb-5 mb-5">
             <img
-              className="h-80 rounded-lg bg-white"
+              className="h-60 rounded-lg bg-white"
               src="projets-logo/ardennevet.svg"
               alt=""
             />

@@ -30,8 +30,18 @@ export default function Smile({ onClick }) {
           <div className="flex gap-5 overflow-auto pb-5 mb-5">
             <img
               className="h-80 rounded-lg bg-white"
-              src="projets-logo/smile.png"
-              alt=""
+              src="smile/one.jpg"
+              alt="smile1"
+            />
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="smile/2.jpg"
+              alt="smile2"
+            />
+            <img
+              className="h-80 rounded-lg bg-white"
+              src="smile/3.jpg"
+              alt="smile3"
             />
           </div>
 
