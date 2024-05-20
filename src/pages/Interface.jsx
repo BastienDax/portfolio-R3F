@@ -128,7 +128,7 @@ export default function Interface() {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-4 left-0 w-full">
+              <div className="absolute bottom-8 left-0 w-full">
                 <div className="text-center">
                   <p className="text-white">
                     <b>Bastien Daxhelet</b> - Développeur créatif
@@ -146,7 +146,7 @@ export default function Interface() {
         </Canvas>
       )}
       {tutorial && (
-        <div className="absolute bottom-4 right-4 pointer-events-auto z-50">
+        <div className="absolute bottom-8 right-4 pointer-events-auto z-50">
           <label className="switch">
             <input
               type="checkbox"
