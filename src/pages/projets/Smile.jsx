@@ -45,6 +45,12 @@ export default function Smile({ onClick }) {
             />
           </div>
 
+          <p className="mb-5">
+            <a href="https://www.smilecaregroup.be" target="_blank">
+              www.smilecaregroup.be
+            </a>
+          </p>
+
           <div className="my-5">
             <p className="mb-2 text-2xl font-bold">Objectif du projet</p>
 

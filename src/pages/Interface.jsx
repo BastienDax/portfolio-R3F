@@ -105,7 +105,7 @@ export default function Interface() {
             background
             resolution={256}
             backgroundRotation={[0, Math.PI / 2, 0]}
-            backgroundIntensity={0.05}
+            backgroundIntensity={0.1}
           />
 
           <PerspectiveCamera makeDefault near={0.1} far={2000} fov={75} />

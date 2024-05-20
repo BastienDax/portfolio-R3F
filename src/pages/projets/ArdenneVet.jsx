@@ -32,9 +32,15 @@ export default function ArdenneVet({ onClick }) {
             <img
               className="h-60 rounded-lg bg-white"
               src="projets-logo/ardennevet.svg"
-              alt=""
+              alt="ardennevet"
             />
           </div>
+
+          <p className="mb-5">
+            <a href="https://www.ardenneveterinaires.be" target="_blank">
+              www.ardenneveterinaires.be
+            </a>
+          </p>
 
           <div className="my-5">
             <p className="mb-2 text-2xl font-bold">Objectif du projet</p>

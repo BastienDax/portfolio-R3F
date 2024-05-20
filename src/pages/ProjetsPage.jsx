@@ -59,17 +59,28 @@ export default function ProjetsPage({ onClick }) {
             </div>
 
             <div className="py-10 px-16 h-full text-white overflow-auto">
-              <div className="mt-40 w-2/3 flex flex-col">
-                <p className="mb-2 text-sm">Projet à la une</p>
-                <p className="mb-2 font-bold text-4xl">FillUP</p>
-                <p className="">
-                  J'ai été mandaté par cette startup pour développer une
-                  application web destinée à réduire les files d'attente dans
-                  les bars et lors des événements.
-                </p>
-                <a className="btn-projets" href="#projets">
-                  En voir plus
-                </a>
+              <div className="flex">
+                <div className="mt-40  w-2/3 flex flex-col">
+                  <p className="mb-2 text-sm">Projet à la une</p>
+                  <p className="mb-2 font-bold text-4xl">FillUP</p>
+                  <p className="">
+                    J'ai été mandaté par cette startup pour développer une
+                    application web destinée à réduire les files d'attente dans
+                    les bars et lors des événements.
+                  </p>
+                  <a className="btn-projets" href="#projets">
+                    En voir plus
+                  </a>
+                </div>
+                <div className="w-1/3 mt-12 flex justify-center">
+                  <div className="h-2/4">
+                    <img
+                      src="fillup/2.PNG"
+                      alt="fillup"
+                      className="h-96 rounded-lg"
+                    />
+                  </div>
+                </div>
               </div>
               <div className="mt-16 mb-20">
                 <p id="projets" className="mb-8 font-bold text-4xl">

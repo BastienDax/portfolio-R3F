@@ -36,6 +36,12 @@ export default function Lystya({ onClick }) {
             />
           </div>
 
+          <p className="mb-5">
+            <a href="https://www.lystya.org" target="_blank">
+              www.lystya.org
+            </a>
+          </p>
+
           <p>Projet d'une association : Plateforme d'entraide citoyenne.</p>
 
           <div className="my-5">

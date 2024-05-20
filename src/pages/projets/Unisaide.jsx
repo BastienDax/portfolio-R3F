@@ -31,19 +31,29 @@ export default function Unisaide({ onClick }) {
             <img
               className="h-80 rounded-lg"
               src="unisaide/mockup1.png"
-              alt=""
+              alt="mockup1"
             />
             <img
               className="h-80 rounded-lg"
               src="unisaide/mockup2.png"
-              alt=""
+              alt="mockup2"
             />
             <img
               className="h-80 rounded-lg"
               src="unisaide/mockup3.png"
-              alt=""
+              alt="mockup3"
             />
           </div>
+
+          <p className="mb-5">
+            <a
+              href="https://decouvrir.unisaide.com
+"
+              target="_blank"
+            >
+              www.decouvrir.unisaide.com
+            </a>
+          </p>
 
           <p>
             Projet à côté de mes études : Plateforme d'entraide entre les
