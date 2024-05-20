@@ -14,7 +14,7 @@ export function Deskroom() {
   texture.flipY = false;
   texture.colorSpace = THREE.SRGBColorSpace;
 
-  const isMobile = window.innerWidth < 400;
+  const isMobile = window.innerWidth < 375;
   const responsiveRatio = viewport.width / 12;
 
   return (
