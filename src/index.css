@@ -480,6 +480,7 @@ input:checked + .slider svg {
 
 .btn-projets:hover {
   color: white;
+  background-color: #006dd2;
 }
 
 .btn-projets:hover path {

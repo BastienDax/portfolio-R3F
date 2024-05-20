@@ -61,31 +61,37 @@ export default function ProjetsPage({ onClick }) {
             </div>
 
             <div className="py-10 px-16 h-full text-white overflow-auto">
-              <div className="mt-40 w-1/2 flex flex-col">
+              <div className="mt-40 w-2/3 flex flex-col">
                 <p className="mb-2 text-sm">Projet à la une</p>
                 <p className="mb-2 font-bold text-4xl">FillUP</p>
                 <p className="">
-                  Tortor viverra mollis mauris malesuada sed lobortis. Pharetra
-                  porttitor amet ac ipsum venenatis. Tristique et neque non sit
-                  phasellus mattis hac morbi facilisis.
+                  J'ai été mandaté par cette startup pour développer une
+                  application web destinée à réduire les files d'attente dans
+                  les bars et lors des événements.
                 </p>
-                <button className="btn-projets">En voir plus</button>
+                <a className="btn-projets" href="#projets">
+                  En voir plus
+                </a>
               </div>
               <div className="mt-16 mb-20">
-                <p className="mb-8 font-bold text-4xl">Mes projets clients</p>
+                <p id="projets" className="mb-8 font-bold text-4xl">
+                  Mes projets clients
+                </p>
                 <div className="w-full grid grid-cols-3 gap-x-12 gap-y-32">
-                  <div className="max-w-80 h-44 bg-white rounded-lg">
+                  <div className="max-w-80 h-44 rounded-lg flex justify-center bg-fillup">
                     <button
                       onClick={() => setCurrentPage(1)}
                       className="text-start"
                     >
-                      <img
-                        className="w-full h-44 object-cover rounded-lg"
-                        src="projets-logo/fillup.png"
-                        alt=""
-                      />
+                      <div className="w-full flex justify-center items-center">
+                        <img
+                          className="h-44 object-cover rounded-lg"
+                          src="projets-logo/fillup.png"
+                          alt=""
+                        />
+                      </div>
                       <p className="mt-2 text-xl font-bold">FillUP</p>
-                      <p>Plateforme pour de l'événementiel</p>
+                      <p>Plateforme événementielle</p>
                     </button>
                   </div>
                   <div className="max-w-80 h-44 bg-white rounded-lg">
@@ -103,7 +109,7 @@ export default function ProjetsPage({ onClick }) {
                       <p className="mt-2 text-xl font-bold">
                         Ardenne Vétérinaires
                       </p>
-                      <p>Site web d'une clinique vétérinaire</p>
+                      <p>Clinique vétérinaire</p>
                     </button>
                   </div>
                   <div className="max-w-80 h-44 bg-white rounded-lg">
@@ -119,7 +125,7 @@ export default function ProjetsPage({ onClick }) {
                         />
                       </div>
                       <p className="mt-2 text-xl font-bold">SMILE Care Group</p>
-                      <p>Site web pour des soins médicaux infirmiers</p>
+                      <p>Soins médicaux infirmiers</p>
                     </button>
                   </div>
                   <div className="max-w-80 h-44 bg-white rounded-lg">
@@ -167,7 +173,7 @@ export default function ProjetsPage({ onClick }) {
                         />
                       </div>
                       <p className="mt-2 text-xl font-bold">StoryLific</p>
-                      <p>Site web pour un podcast</p>
+                      <p>Podcast</p>
                     </button>
                   </div>
                 </div>

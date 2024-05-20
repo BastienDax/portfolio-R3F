@@ -41,21 +41,29 @@ export default function AboutPage({ onClick }) {
             </div>
           </div>
           <h1 className="mt-6 font-bold text-2xl">Bastien Daxhelet</h1>
+          <p>Développeur Créatif - React | JavaScript | ThreeJS</p>
+
           <h2 className="my-6">
+            J’aide les marques et les entreprises à présenter leurs produits,
+            idées et histoires de façon immersive pour captiver leurs clients et
+            renforcer leur présence en ligne.
+            <br />
+            <br />
             Depuis mon plus jeune âge, je me suis plongé avec passion dans
             l'univers de la technologie et de l'innovation. J'ai déménagé de
-            Belgique pour m'installer à Québec pour découvrir les opportunites
+            Belgique pour m'installer à Québec, au Canada, pour me développer et
+            continuer d'apprendre.
           </h2>
           <h3 className="font-bold text-2xl">Mon objectif</h3>
           <p className="my-6">
-            Je crée des expériences en ligne qui vont au-delà des attentes, en
-            particulier dans le domaine captivant du webXR. Chaque projet est
-            pour moi une opportunité d'offrir aux utilisateurs une immersion
-            totale, où chaque interaction est une expérience unique et
-            captivante.
+            En créant des expériences immersives en ligne qui vont au-delà des
+            attentes, en particulier dans le domaine captivant du Web et XR.
+            Chaque projet est pour moi une opportunité d'offrir aux utilisateurs
+            une immersion totale, où chaque interaction est une expérience
+            unique et captivante.
           </p>
 
-          <h3 className="my-6 font-bold text-2xl">Mon parcours</h3>
+          <h3 className="my-6 font-extrabold text-2xl">Mon parcours</h3>
           <div className="flex flex-col gap-6">
             <div className="flex gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl overflow-hidden">
@@ -63,7 +71,7 @@ export default function AboutPage({ onClick }) {
               </div>
               <div>
                 <p className="font-bold text-lg">FillUP</p>
-                <p>Plateforme pour de l'événementiel</p>
+                <p>Plateforme événementielle</p>
                 <p>Freelance - 5 mois</p>
                 <div className="flex gap-x-2 mt-2">
                   <SkillButton text="React" />
@@ -84,7 +92,7 @@ export default function AboutPage({ onClick }) {
               </div>
               <div>
                 <p className="font-bold text-lg">Ardenne Vétérinaires</p>
-                <p>Site web d'une clinique vétérinaire</p>
+                <p>Clinique vétérinaire</p>
                 <p>Freelance</p>
                 <div className="flex gap-x-2 mt-2">
                   <SkillButton text="React" />
@@ -100,7 +108,7 @@ export default function AboutPage({ onClick }) {
               </div>
               <div>
                 <p className="font-bold text-lg">SMILE Care Group</p>
-                <p>Site web pour des soins médicaux infirmiers</p>
+                <p>Soins médicaux infirmiers</p>
                 <p>Freelance</p>
                 <div className="flex gap-x-2 mt-2">
                   <SkillButton text="React" />
@@ -168,11 +176,7 @@ export default function AboutPage({ onClick }) {
             </div>
           </div>
 
-          <h3 className="my-6 font-bold text-2xl">Retour des clients</h3>
-
-          <p>Ajouter avis ici</p>
-
-          <h3 className="my-6 font-bold text-2xl">Mes réseaux</h3>
+          <h3 className="my-6 font-extrabold text-2xl">Mes réseaux</h3>
           <div className=" flex gap-x-6">
             <div>
               <a
