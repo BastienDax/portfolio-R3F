@@ -29,11 +29,12 @@ export default function Fillup({ onClick }) {
         <div className="py-10 px-16 h-full text-white overflow-auto">
           <p className="font-bold text-3xl mb-5">FillUP</p>
           <div className="flex gap-5 overflow-auto pb-5 mb-5">
-            <img
-              className="h-80 rounded-lg"
-              src="projets-logo/fillup.png"
-              alt=""
-            />
+            <img className="h-80 rounded-lg" src="fillup/1.PNG" alt="" />
+            <img className="h-80 rounded-lg" src="fillup/2.PNG" alt="" />
+            <img className="h-80 rounded-lg" src="fillup/6.PNG" alt="" />
+            <img className="h-80 rounded-lg" src="fillup/menu.png" alt="" />
+            <img className="h-80 rounded-lg" src="fillup/stats.png" alt="" />
+            <img className="h-80 rounded-lg" src="fillup/listing2.png" alt="" />
           </div>
 
           <p>
