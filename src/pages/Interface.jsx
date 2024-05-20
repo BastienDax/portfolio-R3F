@@ -37,7 +37,7 @@ export default function Interface() {
     setTutorial(true);
   };
 
-  const isMobile = window.innerWidth < 1280;
+  const isMobile = window.innerWidth < 1175;
 
   if (isMobile) {
     return (
