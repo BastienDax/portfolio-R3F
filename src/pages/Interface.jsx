@@ -111,7 +111,7 @@ export default function Interface() {
           <PerspectiveCamera makeDefault near={0.1} far={2000} fov={75} />
 
           {choiceCamera === false && (
-            <Html center position={[2, 0, -25]}>
+            <Html center position={[0, 0, -25]}>
               <div className="w-screen h-screen flex justify-center">
                 <div className="flex mt-96 flex-col justify-center items-center">
                   <p className="mb-14 text-xl font-bold text-white">
@@ -139,7 +139,7 @@ export default function Interface() {
           )}
 
           {cameraAccepted === false && !cameraAccepted && (
-            <Html center position={[2, 0, -25]}>
+            <Html center position={[0, 0, -25]}>
               <InterfaceMenu />
             </Html>
           )}
