@@ -174,8 +174,8 @@ export default function MusiquePage({ onClick }) {
                     type="test"
                     name="text"
                     id="text"
-                    className="block w-full bg-radio-input rounded-lg py-1.5 pl-10 placeholder:text-gray-400 sm:text-sm sm:leading-6"
-                    placeholder="Rechercher une musique"
+                    className="block w-full bg-radio-input rounded-lg py-1.5 px-8 placeholder:text-gray-400 sm:text-sm sm:leading-6"
+                    placeholder="Rechercher un son"
                   />
                 </div>
               </div>
@@ -212,15 +212,27 @@ export default function MusiquePage({ onClick }) {
               ))}
             </div>
 
-            <p className="font-bold text-xl">Titres</p>
+            {/* <p className="font-bold text-xl">Titres</p> */}
 
-            <div className="my-4 flex gap-6 overflow-auto whitespace-nowrap pr-8">
+            {/* <div className="my-4 flex gap-6 overflow-auto whitespace-nowrap pr-8">
               <div>
                 <img
                   className="min-h-40 min-w-40 max-w-40 rounded-lg object-cover"
                   src="musique-cover/musique6.jpg"
                   alt=""
                 />
+                <svg
+                  className="h-6 w-6 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    id="Symbol"
+                    d="M1.8418 12.3999C1.57324 12.3999 1.3584 12.3022 1.19727 12.1069C1.04102 11.9165 0.962891 11.6626 0.962891 11.3452V1.04736C0.962891 0.72998 1.04102 0.476074 1.19727 0.285645C1.3584 0.0952148 1.57324 0 1.8418 0C1.98828 0 2.12744 0.0268555 2.25928 0.0805664C2.39111 0.129395 2.53027 0.195312 2.67676 0.27832L11.2168 5.22217C11.5244 5.39795 11.7368 5.55664 11.854 5.69824C11.9761 5.83496 12.0371 6.00098 12.0371 6.19629C12.0371 6.3916 11.9761 6.56006 11.854 6.70166C11.7368 6.83838 11.5244 6.99707 11.2168 7.17773L2.67676 12.1143C2.53027 12.2021 2.39111 12.2705 2.25928 12.3193C2.12744 12.373 1.98828 12.3999 1.8418 12.3999Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
                 <p className="mt-2 font-bold">Nuance de Bleu</p>
                 <p className="text-sm">Azure Melody</p>
               </div>
@@ -254,7 +266,7 @@ export default function MusiquePage({ onClick }) {
                 <p className="mt-2 font-bold">Nuance de Bleu</p>
                 <p className="text-sm">Azure Melody</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
