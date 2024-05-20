@@ -47,10 +47,6 @@ export default function Fillup({ onClick }) {
           </div>
 
           <p className="mb-5">
-            <a href="app.fillup.store">www.app.fillup.store</a>
-          </p>
-
-          <p className="mb-5">
             <a href="https://app.fillup.store" target="_blank">
               www.app.fillup.store
             </a>
