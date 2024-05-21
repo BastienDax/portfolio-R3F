@@ -41,13 +41,26 @@ export default function Interface() {
 
   if (isMobile) {
     return (
-      <div className="w-screen h-screen flex flex-col justify-center items-center text-white text-center">
-        <p className="text-xl font-bold ">
-          Pour une meilleure expérience, <br /> veuillez utiliser une tablette
-          ou un ordinateur.
-        </p>
-        <p className="mt-5">Une version responsive arrive bientôt.</p>
-      </div>
+      <Canvas>
+        <Environment
+          files="models/deskroom4k.hdr"
+          background
+          resolution={256}
+          backgroundRotation={[0, Math.PI / 2, 0]}
+          backgroundIntensity={0.1}
+        />
+        <PerspectiveCamera makeDefault near={0.1} far={2000} fov={75} />
+
+        <Html center position={[0, 0, -25]}>
+          <div className="w-screen h-screen flex flex-col justify-center items-center text-white text-center">
+            <p className="text-xl font-bold ">
+              Pour une meilleure expérience, <br /> veuillez utiliser une
+              tablette ou un ordinateur.
+            </p>
+            <p className="mt-5">Une version responsive arrive bientôt.</p>
+          </div>
+        </Html>
+      </Canvas>
     );
   }
 
