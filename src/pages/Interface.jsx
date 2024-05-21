@@ -57,7 +57,7 @@ export default function Interface() {
               Pour une meilleure expérience, <br /> veuillez utiliser une
               tablette ou un ordinateur.
             </p>
-            <p className="mt-5">Une version responsive arrive bientôt.</p>
+            <p className="mt-5">Une version mobile arrive bientôt.</p>
           </div>
         </Html>
       </Canvas>
