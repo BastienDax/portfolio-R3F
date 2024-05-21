@@ -201,9 +201,7 @@ export default function AboutPage({ onClick }) {
         </div>
       </div>
 
-      <div className="w-full flex justify-center">
-        <BottomMenu />
-      </div>
+      <div className="w-full flex justify-center">{/* <BottomMenu /> */}</div>
     </div>
   );
 }

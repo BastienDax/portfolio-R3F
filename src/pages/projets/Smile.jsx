@@ -93,7 +93,9 @@ export default function Smile({ onClick }) {
       </div>
 
       <div className="w-full flex justify-center">
-        <BottomMenu />
+        /*
+        <bottomMenu />
+        */
       </div>
     </div>
   );

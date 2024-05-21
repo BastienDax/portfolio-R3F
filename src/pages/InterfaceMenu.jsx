@@ -61,7 +61,7 @@ export default function InterfaceMenu() {
                 <p className="text-2xl font-bold">Contact</p>
               </button>
             </div>
-            <div className="flex flex-col items-center">
+            {/* <div className="flex flex-col items-center">
               <button onClick={() => setCurrentPage(4)}>
                 <img
                   className="h-36 hover:scale-105"
@@ -70,7 +70,7 @@ export default function InterfaceMenu() {
                 />
                 <p className="text-2xl font-bold">Musique</p>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       )}

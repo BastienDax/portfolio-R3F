@@ -110,7 +110,9 @@ export default function ArdenneVet({ onClick }) {
       </div>
 
       <div className="w-full flex justify-center">
-        <BottomMenu />
+        /*
+        <bottomMenu />
+        */
       </div>
     </div>
   );
