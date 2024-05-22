@@ -70,10 +70,10 @@ export default function Unisaide({ onClick }) {
               <br />
               <br />
               J'ai souhaité créer une plateforme en ligne pour les étudiants
-              pour qu'ils puissent s'entraider dans leurs cours. Etant tous dans
+              pour qu'ils puissent s'entraider dans leurs cours. Étant tous dans
               le même bateau, il est plus facile de demander de l'aider.
-              L'objectif principale est de réunir et s'entraider sur une seule
-              et même plateforme via un feed de discusion public et privée.
+              L'objectif principal est de réunir et s'entraider sur une seule et
+              même plateforme via un feed de discussion publique et privée.
               <br />
               <br />
               Un accès à l'entraide et au partage pour chaque étudiant afin,
