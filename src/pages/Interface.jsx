@@ -169,6 +169,9 @@ export default function Interface() {
             </div>
           </div>
           <div className="absolute bottom-8 right-4 pointer-events-auto z-50">
+            <p className="text-center mb-2 text-white text-xs">
+              Suivi de la tête
+            </p>
             <label className="switch">
               <input
                 type="checkbox"

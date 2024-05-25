@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Monda";
-  src: url("../src/assets/font/Monda-Regular.ttf") format("truetype");
+  font-family: "Poppins";
+  src: url("../src/assets/font/Poppins/Poppins-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Monda";
+  font-family: "Poppins";
   font-weight: bold;
-  src: url("../src/assets/font/Monda-Bold.ttf") format("truetype");
+  src: url("../src/assets/font/Poppins/Poppins-SemiBold.ttf") format("truetype");
 }
 
 :root {
-  font-family: Monda;
+  font-family: Poppins;
   line-height: 1.5;
   font-weight: 400;
 
