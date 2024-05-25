@@ -244,6 +244,12 @@ body,
   animation: fadeOut 1s ease-in-out forwards;
 }
 
+.bg-projets {
+  background-image: url("../public/fillup/iphonemockup.jpg");
+  background-size: cover;
+  background-position: left 50%;
+}
+
 /*
 
   Bottom Menu

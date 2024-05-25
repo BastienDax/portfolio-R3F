@@ -39,7 +39,7 @@ export default function ProjetsPage({ onClick }) {
           <div className="container">
             <div className="absolute top-4 left-4">
               <button
-                className="h-9 w-9 bg-gray-300 bg-opacity-15 rounded-full flex justify-center pt-1"
+                className="h-9 w-9 bg-gray-900 bg-opacity-15 rounded-full flex justify-center pt-1"
                 onClick={onClick}
               >
                 <svg
@@ -58,12 +58,12 @@ export default function ProjetsPage({ onClick }) {
               </button>
             </div>
 
-            <div className="py-10 px-16 h-full text-white overflow-auto">
-              <div className="flex">
-                <div className="mt-40  w-2/3 flex flex-col">
+            <div className=" mb-20 pb-12 h-full text-white overflow-auto">
+              <div className="flex bg-projets px-16 text-black">
+                <div className="mt-40 mb-20 w-2/3 flex flex-col">
                   <p className="mb-2 text-sm">Projet à la une</p>
                   <p className="mb-2 font-bold text-4xl">FillUP</p>
-                  <p className="">
+                  <p className="w-3/4">
                     J'ai été mandaté par cette startup pour développer une
                     application web destinée à réduire les files d'attente dans
                     les bars et lors des événements.
@@ -72,17 +72,8 @@ export default function ProjetsPage({ onClick }) {
                     En voir plus
                   </a>
                 </div>
-                <div className="w-1/3 mt-12 flex justify-center">
-                  <div className="h-2/4">
-                    <img
-                      src="fillup/2.PNG"
-                      alt="fillup"
-                      className="h-96 rounded-lg"
-                    />
-                  </div>
-                </div>
               </div>
-              <div className="mt-16 mb-16">
+              <div className="mt-8 pl-16">
                 <p id="projets" className="mb-8 font-bold text-4xl">
                   Mes projets clients
                 </p>
