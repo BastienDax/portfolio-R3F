@@ -20,9 +20,7 @@ function Loading({ onComplete }) {
   }, [count, onComplete]);
 
   return (
-    <div className="h-full flex justify-center items-center">
-      Chargement... {count * 2}%
-    </div>
+    <div className="h-full flex justify-center items-center">{count * 2}%</div>
   );
 }
 
