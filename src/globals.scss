@@ -321,3 +321,20 @@ h1 {
     }
   }
 }
+
+/* phone */
+@media (max-width: 600px) {
+  .container {
+    width: 110vw;
+    height: 90vh;
+    background-color: red;
+  }
+}
+
+/* phone + tablet */
+@media (max-width: 998px) {
+}
+
+/* tablet */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+}

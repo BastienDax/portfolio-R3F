@@ -518,3 +518,27 @@ input:checked + .slider svg {
   z-index: -1;
   transform: translateX(-50%) translateY(50%);
 }
+
+/* phone */
+@media (max-width: 600px) {
+  .container {
+    height: 80vh;
+    width: 90vw;
+  }
+}
+
+/* phone + tablet */
+@media (max-width: 998px) {
+  .contact {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .container {
+    height: 80vh;
+    width: 90vw;
+  }
+}

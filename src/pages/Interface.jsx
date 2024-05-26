@@ -37,7 +37,8 @@ export default function Interface() {
     setTutorial(true);
   };
 
-  const isMobile = window.innerWidth < 1175;
+  // const isMobile = window.innerWidth < 1175;
+  const isMobile = false;
 
   if (isMobile) {
     return (
@@ -97,7 +98,7 @@ export default function Interface() {
                       <div>
                         <FaceSVGAnimation />
                       </div>
-                      <p className="mt-14 text-xl font-bold text-white">
+                      <p className="mt-14 text-center text-lg md:text-xl px-4 font-bold text-white">
                         Bougez votre tête pour découvrir votre environnement
                       </p>
                       <button className="contact mt-12" onClick={tutorialEnd}>
@@ -129,7 +130,7 @@ export default function Interface() {
               <Html center position={[0, 0, -25]}>
                 <div className="w-screen h-screen flex justify-center">
                   <div className="flex mt-96 flex-col justify-center items-center">
-                    <p className="mb-14 text-xl font-bold text-white">
+                    <p className="mb-14 text-base px-4 md:px-0 md:text-xl font-bold text-white text-center">
                       Acceptez l’usage de la caméra pour avoir une meilleure
                       expérience.
                     </p>
@@ -161,17 +162,14 @@ export default function Interface() {
         ))}
       {tutorial && (
         <>
-          <div className="absolute bottom-8 left-8 pointer-events-auto z-50 text-white">
+          <div className="absolute h-16 flex items-center bottom-4 lg:bottom-8 left-6 lg:left-8 pointer-events-auto z-50 text-white">
             <div className="h-10 flex justify-center items-center">
               <a href="./" className="hover:text-gray-400">
                 ACCUEIL
               </a>
             </div>
           </div>
-          <div className="absolute bottom-8 right-4 pointer-events-auto z-50">
-            <p className="text-center mb-2 text-white text-xs">
-              Suivi de la tête
-            </p>
+          <div className="absolute h-16 flex items-center justify-center bottom-4 lg:bottom-8 right-2 lg:right-4 pointer-events-auto z-50">
             <label className="switch">
               <input
                 type="checkbox"

@@ -166,9 +166,7 @@ export default function ProjetsPage({ onClick }) {
           </div>
 
           <div className="w-full flex justify-center">
-            /*
             <bottomMenu />
-            */
           </div>
         </>
       )}

@@ -27,21 +27,25 @@ export default function AboutPage({ onClick }) {
           </button>
         </div>
 
-        <div className="py-10 px-16 h-full text-white overflow-hidden overflow-y-auto">
+        <div className="px-8 py-10 sm:px-16 h-full text-white overflow-hidden overflow-y-auto">
           <div className="flex justify-between">
             <div>
               <img
-                className="h-48 w-48 rounded-full"
+                className=" h-36 w-36 sm:h-48 sm:w-48 rounded-full"
                 src="bastien_profil.jpeg"
                 alt="bastien_profil"
               />
             </div>
-            <div>
+            <div className="hidden sm:block">
               <img className="h-48" src="man.svg" alt="typing animation" />
             </div>
           </div>
           <h1 className="mt-6 font-bold text-2xl">Bastien Daxhelet</h1>
-          <p>Développeur Créatif - React | JavaScript | ThreeJS</p>
+          <p>
+            Développeur Créatif <span className="hidden md:inline">- </span>
+            <br className="md:hidden" />
+            React | JavaScript | ThreeJS
+          </p>
 
           <h2 className="my-6">
             J’aide les marques et les entreprises à présenter leurs produits,
@@ -54,7 +58,7 @@ export default function AboutPage({ onClick }) {
             Belgique pour m'installer à Québec, au Canada, pour me développer et
             continuer d'apprendre.
           </h2>
-          <h3 className="font-bold text-2xl">Mon objectif</h3>
+          <h3 className="mt-4 sm:mt-0 font-bold text-2xl">Mon objectif</h3>
           <p className="my-6">
             En créant des expériences immersives en ligne qui vont au-delà des
             attentes, en particulier dans le domaine captivant du Web et XR.
@@ -65,15 +69,17 @@ export default function AboutPage({ onClick }) {
 
           <h3 className="my-6 font-extrabold text-2xl">Mon parcours</h3>
           <div className="flex flex-col gap-6">
-            <div className="flex gap-x-6">
-              <div className="h-32 w-32 bg-slate-50 rounded-2xl overflow-hidden">
-                <img src="projets-logo/fillup.png" alt="" />
+            <div className="flex flex-col sm:flex-row gap-x-6">
+              <div className="h-32 w-32">
+                <div className="h-32 w-32 bg-slate-50 rounded-2xl overflow-x-auto flex justify-center items-center ">
+                  <img src="projets-logo/fillup.png" alt="" />
+                </div>
               </div>
               <div>
-                <p className="font-bold text-lg">FillUP</p>
+                <p className="mt-4 sm:mt-0 font-bold text-lg">FillUP</p>
                 <p>Plateforme événementielle</p>
                 <p>Freelance - 5 mois</p>
-                <div className="flex gap-x-2 mt-2">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
                   <SkillButton text="React" />
                   <SkillButton text="NodeJS" />
                   <SkillButton text="MangoDB" />
@@ -82,7 +88,7 @@ export default function AboutPage({ onClick }) {
                 </div>
               </div>
             </div>
-            <div className="flex gap-x-6">
+            <div className="flex flex-col sm:flex-row gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl flex justify-center items-center">
                 <img
                   className="w-20"
@@ -91,10 +97,12 @@ export default function AboutPage({ onClick }) {
                 />
               </div>
               <div>
-                <p className="font-bold text-lg">Ardenne Vétérinaires</p>
+                <p className="mt-4 sm:mt-0 font-bold text-lg">
+                  Ardenne Vétérinaires
+                </p>
                 <p>Clinique vétérinaire</p>
                 <p>Freelance</p>
-                <div className="flex gap-x-2 mt-2">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
                   <SkillButton text="React" />
                   <SkillButton text="UI/UX" />
                   <SkillButton text="SEO" />
@@ -102,15 +110,17 @@ export default function AboutPage({ onClick }) {
               </div>
             </div>
 
-            <div className="flex gap-x-6">
+            <div className="flex flex-col sm:flex-row gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl flex justify-center items-center">
                 <img src="projets-logo/smile.png" alt="" />
               </div>
               <div>
-                <p className="font-bold text-lg">SMILE Care Group</p>
+                <p className="mt-4 sm:mt-0 font-bold text-lg">
+                  SMILE Care Group
+                </p>
                 <p>Soins médicaux infirmiers</p>
                 <p>Freelance</p>
-                <div className="flex gap-x-2 mt-2">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
                   <SkillButton text="React" />
                   <SkillButton text="UI/UX" />
                   <SkillButton text="SEO" />
@@ -118,19 +128,17 @@ export default function AboutPage({ onClick }) {
               </div>
             </div>
 
-            <div className="flex gap-x-6">
-              <div className="h-32 w-32 bg-slate-50 rounded-2xl overflow-auto">
-                <img
-                  className="h-full"
-                  src="projets-logo/unisaide.png"
-                  alt=""
-                />
+            <div className="flex flex-col sm:flex-row gap-x-6">
+              <div className="h-32 w-32">
+                <div className="h-32 w-32 bg-slate-50 rounded-2xl overflow-x-auto">
+                  <img src="projets-logo/unisaide.png" alt="" />
+                </div>
               </div>
               <div>
-                <p className="font-bold text-lg">Unisaide</p>
+                <p className="mt-4 sm:mt-0 font-bold text-lg">Unisaide</p>
                 <p>Plateforme d'entraide pour les étudiants</p>
                 <p>Freelance - 6 mois</p>
-                <div className="flex gap-x-2 mt-2">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
                   <SkillButton text="React" />
                   <SkillButton text="NodeJS" />
                   <SkillButton text="MangoDB" />
@@ -139,15 +147,15 @@ export default function AboutPage({ onClick }) {
               </div>
             </div>
 
-            <div className="flex gap-x-6">
+            <div className="flex flex-col sm:flex-row gap-x-6">
               <div className="h-32 w-32 bg-slate-50 rounded-2xl flex justify-center items-center">
                 <img src="projets-logo/lystya.png" alt="" />
               </div>
               <div>
-                <p className="font-bold text-lg">Lystya</p>
+                <p className="mt-4 sm:mt-0 font-bold text-lg">Lystya</p>
                 <p>Plateforme d'entraide entre citoyens</p>
                 <p>Freelance - 4 mois</p>
-                <div className="flex gap-x-2 mt-2">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
                   <SkillButton text="PHP" />
                   <SkillButton text="MySQL" />
                   <SkillButton text="UI/UX" />
@@ -165,7 +173,7 @@ export default function AboutPage({ onClick }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="h-24 rounded-2xl"
+                  className="h-16 sm:h-20 md:h-24 rounded-2xl"
                   src="socials-logo/instagram.svg"
                   alt=""
                 />
@@ -178,7 +186,7 @@ export default function AboutPage({ onClick }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="h-24 rounded-2xl"
+                  className="h-16 sm:h-20 md:h-24 rounded-2xl"
                   src="socials-logo/linkedin.svg"
                   alt=""
                 />
@@ -191,7 +199,7 @@ export default function AboutPage({ onClick }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="h-24 rounded-2xl"
+                  className="h-16 sm:h-20 md:h-24 rounded-2xl"
                   src="socials-logo/github.svg"
                   alt=""
                 />
