@@ -36,7 +36,7 @@ export default function ProjetsPage({ onClick }) {
     <div>
       {currentPage === 0 && (
         <>
-          <div className="container">
+          <div className="container mb-16 sm:mb-0">
             <div className="absolute top-4 left-4">
               <button
                 className="h-9 w-9 bg-gray-900 bg-opacity-15 rounded-full flex justify-center pt-1"

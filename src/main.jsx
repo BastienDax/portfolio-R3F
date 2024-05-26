@@ -27,14 +27,10 @@ function Loading({ onComplete }) {
 }
 
 function Main() {
-  const handleLoadingComplete = () => {
-    setIsAppVisible(true);
-  };
-
   return (
     <React.StrictMode>
       <PlayProvider>
-        <Suspense fallback={<Loading onComplete={handleLoadingComplete} />}>
+        <Suspense fallback={<Loading />}>
           <App />
         </Suspense>
       </PlayProvider>

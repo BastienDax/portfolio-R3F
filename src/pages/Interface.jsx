@@ -37,33 +37,7 @@ export default function Interface() {
     setTutorial(true);
   };
 
-  // const isMobile = window.innerWidth < 1175;
   const isMobile = false;
-
-  if (isMobile) {
-    return (
-      <Canvas>
-        <Environment
-          files="models/deskroom4k.hdr"
-          background
-          resolution={256}
-          backgroundRotation={[0, Math.PI / 2, 0]}
-          backgroundIntensity={0.1}
-        />
-        <PerspectiveCamera makeDefault near={0.1} far={2000} fov={75} />
-
-        <Html center position={[0, 0, -25]}>
-          <div className="w-screen h-screen flex flex-col justify-center items-center text-white text-center">
-            <p className="text-xl font-bold ">
-              Pour une meilleure expérience, <br /> veuillez utiliser une
-              tablette ou un ordinateur.
-            </p>
-            <p className="mt-5">Une version mobile arrive bientôt.</p>
-          </div>
-        </Html>
-      </Canvas>
-    );
-  }
 
   return (
     <>
@@ -129,7 +103,7 @@ export default function Interface() {
             {choiceCamera === false && (
               <Html center position={[0, 0, -25]}>
                 <div className="w-screen h-screen flex justify-center">
-                  <div className="flex mt-72 sm:mt-96 flex-col justify-center items-center">
+                  <div className="flex mt-96 flex-col justify-center items-center">
                     <p className="mb-14 text-base px-4 md:px-0 md:text-xl font-bold text-white text-center">
                       Acceptez l’usage de la caméra pour avoir une meilleure
                       expérience.
@@ -144,7 +118,7 @@ export default function Interface() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute bottom-8 left-0 w-full">
+                <div className="absolute bottom-16 sm:bottom-8 left-0 w-full">
                   <div className="text-center">
                     <p className="text-white">
                       <b>Bastien Daxhelet</b> - Développeur créatif

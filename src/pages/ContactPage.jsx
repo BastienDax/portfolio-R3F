@@ -5,7 +5,7 @@ export default function ContactPage({ onClick }) {
   return (
     <>
       <div>
-        <div className="container flex flex-col md:flex-row">
+        <div className="container mb-16 sm:mb-0 flex flex-col xl:flex-row">
           <div className="absolute top-4 left-4">
             <button
               className="h-9 w-9 bg-gray-300 bg-opacity-15 rounded-full flex justify-center pt-1"
@@ -28,7 +28,7 @@ export default function ContactPage({ onClick }) {
           </div>
 
           <div className="overflow-auto flex flex-col xl:flex-row">
-            <div className="py-10 pl-8 md:pl-16 w-full md:w-2/3 h-full text-white">
+            <div className="pt-10 lg:py-10 pl-8 md:pl-16 w-full md:w-2/3 h-full text-white">
               <div>
                 <img
                   className="h-36 w-36 sm:h-48 sm:w-48 rounded-full"
@@ -38,7 +38,7 @@ export default function ContactPage({ onClick }) {
               </div>
 
               <div>
-                <h1 className="mt-6 mb-2 font-bold text-xl md:text-3xl">
+                <h1 className="mt-6 mb-2 font-bold text-2xl md:text-3xl">
                   Bastien Daxhelet
                 </h1>
                 <h2 className="mb-2 text-lg md:text-xl">
@@ -48,8 +48,8 @@ export default function ContactPage({ onClick }) {
               </div>
             </div>
 
-            <div className="py-10 pl-8 xl:pl-0 pr-8 xl:pr-16 h-full text-white">
-              <p className="mt-6 mb-4 font-bold text-xl md:text-3xl">
+            <div className="pt-0 pb-10 xl:pt-10 px-8 md:px-16 h-full text-white">
+              <p className="mt-6 mb-4 font-bold text-2xl md:text-3xl">
                 Discutons ensemble !
               </p>
               <p className="mb-8">
