@@ -98,9 +98,7 @@ export default function Lystya({ onClick }) {
       </div>
 
       <div className="w-full flex justify-center">
-        /*
         <bottomMenu />
-        */
       </div>
     </div>
   );

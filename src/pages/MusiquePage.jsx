@@ -272,9 +272,7 @@ export default function MusiquePage({ onClick }) {
       </div>
 
       <div className="w-full flex justify-center">
-        /*
         <bottomMenu />
-        */
       </div>
     </div>
   );

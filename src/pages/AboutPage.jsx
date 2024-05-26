@@ -5,7 +5,7 @@ import { BottomMenu } from "../components/BottomMenu";
 export default function AboutPage({ onClick }) {
   return (
     <div>
-      <div className="container">
+      <div className="container mb-16 sm:mb-0">
         <div className="absolute top-4 left-4">
           <button
             className="h-9 w-9 bg-gray-300 bg-opacity-15 rounded-full flex justify-center pt-1"
@@ -31,7 +31,7 @@ export default function AboutPage({ onClick }) {
           <div className="flex justify-between">
             <div>
               <img
-                className=" h-36 w-36 sm:h-48 sm:w-48 rounded-full"
+                className="h-36 w-36 sm:h-48 sm:w-48 rounded-full"
                 src="bastien_profil.jpeg"
                 alt="bastien_profil"
               />

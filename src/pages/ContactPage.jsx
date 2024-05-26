@@ -31,17 +31,17 @@ export default function ContactPage({ onClick }) {
             <div className="py-10 pl-8 md:pl-16 w-full md:w-2/3 h-full text-white">
               <div>
                 <img
-                  className="h-48 w-48 rounded-full"
+                  className="h-36 w-36 sm:h-48 sm:w-48 rounded-full"
                   src="bastien_profil.jpeg"
                   alt="bastien_profil"
                 />
               </div>
 
               <div>
-                <h1 className="mt-6 mb-2 font-bold text-3xl">
+                <h1 className="mt-6 mb-2 font-bold text-xl md:text-3xl">
                   Bastien Daxhelet
                 </h1>
-                <h2 className="mb-2 text-xl">
+                <h2 className="mb-2 text-lg md:text-xl">
                   Développeur Créatif <br /> React | JavaScript | ThreeJS
                 </h2>
                 <h3>Québec, QC, Canada</h3>
@@ -49,7 +49,7 @@ export default function ContactPage({ onClick }) {
             </div>
 
             <div className="py-10 pl-8 xl:pl-0 pr-8 xl:pr-16 h-full text-white">
-              <p className="mt-6 mb-4 font-bold text-3xl">
+              <p className="mt-6 mb-4 font-bold text-xl md:text-3xl">
                 Discutons ensemble !
               </p>
               <p className="mb-8">
