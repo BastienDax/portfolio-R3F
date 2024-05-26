@@ -63,8 +63,10 @@ export const Overlay = () => {
           </div>
           <div className="absolute bottom-0 w-full z-50">
             <div className="md:flex text-center mx-8 mb-8 text-white justify-center md:justify-between md:items-center">
-              <div className="pointer-events-auto">[ Québec, Canada ]</div>
-              <div>
+              <div className="pointer-events-auto pb-2 md:pb-0">
+                [ Québec, Canada ]
+              </div>
+              <div className="pb-2 md:pb-0">
                 <a
                   className="pointer-events-auto"
                   href={"mailto:bastien.daxhelet@gmail.com"}

@@ -534,6 +534,24 @@ input:checked + .slider svg {
   .btn-projets {
     padding: 12px 30px;
   }
+
+  .explore {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+
+  .contact-mobile {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+  }
+
+  .intro__scroll {
+    font-size: 14px;
+  }
 }
 
 /* phone + tablet */
