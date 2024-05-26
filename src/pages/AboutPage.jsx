@@ -40,7 +40,9 @@ export default function AboutPage({ onClick }) {
               <img className="h-48" src="man.svg" alt="typing animation" />
             </div>
           </div>
-          <h1 className="mt-6 font-bold text-2xl">Bastien Daxhelet</h1>
+          <h1 className="mt-6 font-bold text-xl sm:text-2xl">
+            Bastien Daxhelet
+          </h1>
           <p>
             Développeur Créatif <span className="hidden md:inline">- </span>
             <br className="md:hidden" />
@@ -58,7 +60,9 @@ export default function AboutPage({ onClick }) {
             Belgique pour m'installer à Québec, au Canada, pour me développer et
             continuer d'apprendre.
           </h2>
-          <h3 className="mt-4 sm:mt-0 font-bold text-2xl">Mon objectif</h3>
+          <h3 className="mt-4 sm:mt-0 font-bold text-xl sm:text-2xl">
+            Mon objectif
+          </h3>
           <p className="my-6">
             En créant des expériences immersives en ligne qui vont au-delà des
             attentes, en particulier dans le domaine captivant du Web et XR.
@@ -67,7 +71,9 @@ export default function AboutPage({ onClick }) {
             unique et captivante.
           </p>
 
-          <h3 className="my-6 font-extrabold text-2xl">Mon parcours</h3>
+          <h3 className="my-6 font-extraboldt text-xl sm:text-2xl">
+            Mon parcours
+          </h3>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col sm:flex-row gap-x-6">
               <div className="h-32 w-32">

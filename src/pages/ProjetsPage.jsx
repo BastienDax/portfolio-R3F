@@ -74,7 +74,10 @@ export default function ProjetsPage({ onClick }) {
                 </div>
               </div>
               <div className="mt-8 pl-8 sm:pl-16">
-                <p id="projets" className="mb-8 font-bold text-3xl sm:text-4xl">
+                <p
+                  id="projets"
+                  className="mb-8 font-bold text-xl sm:text-3xl md:text-4xl"
+                >
                   Mes projets clients
                 </p>
                 <div className="-ml-8 sm:-ml-16 px-8 sm:px-16 overflow-x-auto whitespace-nowrap flex gap-x-6 md:gap-x-12 gap-y-32 h-52">
@@ -90,7 +93,9 @@ export default function ProjetsPage({ onClick }) {
                           alt=""
                         />
                       </div>
-                      <p className="mt-2 text-xl font-bold">FillUP</p>
+                      <p className="mt-2 text-lg sm:text-xl font-bold">
+                        FillUP
+                      </p>
                       <p>Plateforme événementielle</p>
                     </button>
                   </div>
@@ -106,7 +111,7 @@ export default function ProjetsPage({ onClick }) {
                           alt=""
                         />
                       </div>
-                      <p className="mt-2 text-xl font-bold">
+                      <p className="mt-2 text-lg sm:text-xl font-bold">
                         Ardenne Vétérinaires
                       </p>
                       <p>Clinique vétérinaire</p>
@@ -124,7 +129,9 @@ export default function ProjetsPage({ onClick }) {
                           alt=""
                         />
                       </div>
-                      <p className="mt-2 text-xl font-bold">SMILE Care Group</p>
+                      <p className="mt-2 text-lg sm:text-xl font-bold">
+                        SMILE Care Group
+                      </p>
                       <p>Soins médicaux infirmiers</p>
                     </button>
                   </div>
@@ -140,7 +147,9 @@ export default function ProjetsPage({ onClick }) {
                           alt=""
                         />
                       </div>
-                      <p className="mt-2 text-xl font-bold">Unisaide</p>
+                      <p className="mt-2 text-lg sm:text-xl font-bold">
+                        Unisaide
+                      </p>
                       <p>Plateforme d'entraide pour les étudiants</p>
                     </button>
                   </div>
@@ -156,7 +165,9 @@ export default function ProjetsPage({ onClick }) {
                           alt=""
                         />
                       </div>
-                      <p className="mt-2 text-xl font-bold">Lystya</p>
+                      <p className="mt-2 text-lg sm:text-xl font-bold">
+                        Lystya
+                      </p>
                       <p>Plateforme d'entraide entre citoyens</p>
                     </button>
                   </div>

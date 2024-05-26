@@ -38,10 +38,10 @@ export default function ContactPage({ onClick }) {
               </div>
 
               <div>
-                <h1 className="mt-6 mb-2 font-bold text-2xl md:text-3xl">
+                <h1 className="mt-6 mb-2 font-bold text-xl sm:text-2xl md:text-3xl">
                   Bastien Daxhelet
                 </h1>
-                <h2 className="mb-2 text-lg md:text-xl">
+                <h2 className="mb-2 text-base sm:text-lg md:text-xl">
                   Développeur Créatif <br /> React | JavaScript | ThreeJS
                 </h2>
                 <h3>Québec, QC, Canada</h3>
@@ -49,7 +49,7 @@ export default function ContactPage({ onClick }) {
             </div>
 
             <div className="pt-0 pb-10 xl:pt-10 px-8 md:px-16 h-full text-white">
-              <p className="mt-6 mb-4 font-bold text-2xl md:text-3xl">
+              <p className="mt-6 mb-4 font-bold text-xl sm:text-2xl md:text-3xl">
                 Discutons ensemble !
               </p>
               <p className="mb-8">

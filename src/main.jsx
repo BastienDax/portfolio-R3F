@@ -18,7 +18,9 @@ function Loading() {
   }, [count]);
 
   return (
-    <div className="h-full flex justify-center items-center">{count}%</div>
+    <div className="h-full text-xl flex justify-center items-center">
+      {count}%
+    </div>
   );
 }
 
