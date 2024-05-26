@@ -522,7 +522,7 @@ input:checked + .slider svg {
 /* phone */
 @media (max-width: 600px) {
   .container {
-    height: 75vh;
+    height: 70vh;
     width: 90vw;
   }
 
