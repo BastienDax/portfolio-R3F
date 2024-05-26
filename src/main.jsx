@@ -8,18 +8,18 @@ function Loading() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (count < 100) {
+    if (count < 50) {
       const interval = setInterval(() => {
         setCount((prevCount) => prevCount + 1);
-      }, 100);
+      }, 50);
 
       return () => clearInterval(interval);
     }
   }, [count]);
 
   return (
-    <div className="h-full text-xl flex justify-center items-center">
-      {count}%
+    <div className="h-full text-3xl flex justify-center items-center text-white">
+      {count * 2}%
     </div>
   );
 }
