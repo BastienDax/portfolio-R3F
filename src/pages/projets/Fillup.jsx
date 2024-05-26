@@ -26,8 +26,8 @@ export default function Fillup({ onClick }) {
           </button>
         </div>
 
-        <div className="py-10 px-16 h-full text-white overflow-auto">
-          <p className="font-bold text-3xl mb-5">FillUP</p>
+        <div className="px-8 py-10 md:px-16 h-full text-white overflow-auto">
+          <p className="font-bold text-3xl mb-5 mt-5">FillUP</p>
 
           <div className="flex gap-5 overflow-auto pb-5 mb-5">
             <img className="h-80 rounded-lg" src="fillup/1.PNG" alt="1" />
@@ -98,41 +98,51 @@ export default function Fillup({ onClick }) {
             </p>
           </div>
 
-          <div className="flex gap-5 justify-center my-10">
-            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
-              <img
-                src="icons-tech/react.svg"
-                alt="react"
-                className="h-full object-cover"
-              />
+          <div className="-mx-8 px-8 md:-mx-16 md:px-16 flex gap-5 my-10 overflow-x-auto lg:overflow-hidden whitespace-nowrap">
+            <div>
+              <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+                <img
+                  src="icons-tech/react.svg"
+                  alt="react"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
-            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
-              <img
-                src="icons-tech/nodejs.svg"
-                alt="nodejs"
-                className="h-full object-cover"
-              />
+            <div>
+              <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+                <img
+                  src="icons-tech/nodejs.svg"
+                  alt="nodejs"
+                  className="h-full object-cover"
+                />
+              </div>
             </div>
-            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
-              <img
-                src="icons-tech/mongodb.svg"
-                alt="mongodb"
-                className="h-full object-cover"
-              />
+            <div>
+              <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+                <img
+                  src="icons-tech/mongodb.svg"
+                  alt="mongodb"
+                  className="h-full object-cover"
+                />
+              </div>
             </div>
-            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
-              <img
-                src="icons-tech/stripe.svg"
-                alt="stripe"
-                className=" object-cover"
-              />
+            <div>
+              <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+                <img
+                  src="icons-tech/stripe.svg"
+                  alt="stripe"
+                  className="w-full object-cover"
+                />
+              </div>
             </div>
-            <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
-              <img
-                src="icons-tech/figma.svg"
-                alt="figma"
-                className=" object-cover"
-              />
+            <div>
+              <div className="h-28 w-28 bg-white rounded-lg flex justify-center items-center p-4">
+                <img
+                  src="icons-tech/figma.svg"
+                  alt="figma"
+                  className="w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
