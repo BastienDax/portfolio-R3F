@@ -4,23 +4,21 @@ import App from "./App";
 import "./index.css";
 import { PlayProvider } from "./contexts/Play";
 
-function Loading({ onComplete }) {
+function Loading() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (count < 50) {
+    if (count < 100) {
       const interval = setInterval(() => {
         setCount((prevCount) => prevCount + 1);
-      }, 50);
+      }, 100);
 
       return () => clearInterval(interval);
-    } else {
-      onComplete();
     }
-  }, [count, onComplete]);
+  }, [count]);
 
   return (
-    <div className="h-full flex justify-center items-center">{count * 2}%</div>
+    <div className="h-full flex justify-center items-center">{count}%</div>
   );
 }
 
