@@ -92,7 +92,7 @@ export default function Interface() {
                 </>
               )}
               {choiceCamera && !tutorial && cameraAccepted && (
-                <Html center position={[2, 0, -25]}>
+                <Html center position={[0, 0, -25]}>
                   <div className="w-screen h-screen flex justify-center">
                     <div className="flex flex-col justify-center items-center">
                       <div>
@@ -109,7 +109,7 @@ export default function Interface() {
                 </Html>
               )}
               {choiceCamera && tutorial && cameraAccepted && (
-                <Html center position={[2, 0, -25]}>
+                <Html center position={[0, 0, -25]}>
                   <InterfaceMenu />
                 </Html>
               )}
@@ -129,7 +129,7 @@ export default function Interface() {
             {choiceCamera === false && (
               <Html center position={[0, 0, -25]}>
                 <div className="w-screen h-screen flex justify-center">
-                  <div className="flex mt-96 flex-col justify-center items-center">
+                  <div className="flex mt-72 sm:mt-96 flex-col justify-center items-center">
                     <p className="mb-14 text-base px-4 md:px-0 md:text-xl font-bold text-white text-center">
                       Acceptez l’usage de la caméra pour avoir une meilleure
                       expérience.
