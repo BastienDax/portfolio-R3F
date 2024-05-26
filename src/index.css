@@ -522,8 +522,17 @@ input:checked + .slider svg {
 /* phone */
 @media (max-width: 600px) {
   .container {
-    height: 80vh;
+    height: 75vh;
     width: 90vw;
+  }
+
+  .bg-projets {
+    background-image: url("../public/fillup/iphonemockup2.jpg");
+    background-position: right 40%;
+  }
+
+  .btn-projets {
+    padding: 12px 30px;
   }
 }
 
@@ -540,5 +549,10 @@ input:checked + .slider svg {
   .container {
     height: 80vh;
     width: 90vw;
+  }
+
+  .bg-projets {
+    background-image: url("../public/fillup/iphonemockup2.jpg");
+    background-position: right 80%;
   }
 }
