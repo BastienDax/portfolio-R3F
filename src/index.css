@@ -552,6 +552,11 @@ input:checked + .slider svg {
   .intro__scroll {
     font-size: 14px;
   }
+
+  .btn-projets {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
 }
 
 /* phone + tablet */

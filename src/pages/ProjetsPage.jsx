@@ -73,7 +73,7 @@ export default function ProjetsPage({ onClick }) {
                   </a>
                 </div>
               </div>
-              <div className="mt-8 pl-8 sm:pl-16">
+              <div className="mt-8 pl-8 sm:pl-16 h-full">
                 <p
                   id="projets"
                   className="mb-8 font-bold text-xl sm:text-3xl md:text-4xl"
