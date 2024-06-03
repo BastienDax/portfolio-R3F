@@ -578,4 +578,8 @@ input:checked + .slider svg {
     background-image: url("../public/fillup/iphonemockup2.jpg");
     background-position: right 80%;
   }
+
+  .explore {
+    margin-top: 350px;
+  }
 }

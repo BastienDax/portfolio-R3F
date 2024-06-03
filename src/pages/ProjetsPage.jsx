@@ -80,7 +80,7 @@ export default function ProjetsPage({ onClick }) {
                 >
                   Mes projets clients
                 </p>
-                <div className="-ml-8 sm:-ml-16 px-8 sm:px-16 overflow-x-auto whitespace-nowrap flex gap-x-6 md:gap-x-12 gap-y-32 h-52">
+                <div className="-ml-8 sm:-ml-16 px-8 sm:px-16 overflow-x-auto whitespace-nowrap flex gap-x-6 md:gap-x-12 gap-y-32 h-56">
                   <div className="max-w-80 h-36 rounded-lg flex justify-center bg-fillup">
                     <button
                       onClick={() => setCurrentPage(1)}
