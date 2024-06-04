@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import React, { Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Overlay } from "../components/Overlay";
 import { ScrollControls, useScroll } from "@react-three/drei";
@@ -10,6 +11,33 @@ import {
   useCurrentSheet,
 } from "@theatre/r3f";
 import deskroomThroughState from "../deskroom2.json";
+
+import background from "/models/screen-bg-2.jpeg";
+
+function Loading() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    if (count < 50) {
+      const interval = setInterval(() => {
+        setCount((prevCount) => prevCount + 1);
+      }, 50);
+
+      return () => clearInterval(interval);
+    }
+  }, [count]);
+
+  return (
+    <div className="loader bg-black h-full w-full text-3xl flex justify-center items-center text-white">
+      <img
+        className="h-full w-full top-0 left-0 absolute blur-xl"
+        src={background}
+        alt="background"
+      />
+      <span className=" z-10">{count * 2}%</span>
+    </div>
+  );
+}
 
 function Home() {
   const sheet = getProject("Portfolio", { state: deskroomThroughState }).sheet(
@@ -31,17 +59,19 @@ function Home() {
 
   return (
     <>
-      <Canvas flat gl={{ preserveDrawingBuffer: true }}>
-        <ScrollControls pages={3} damping={1} maxSpeed={1}>
-          <SheetProvider sheet={sheet}>
-            <Scene onAnimationComplete={handleAnimationComplete} />
-          </SheetProvider>
-        </ScrollControls>
-      </Canvas>
+      <Suspense fallback={<Loading />}>
+        <Canvas flat gl={{ preserveDrawingBuffer: true }}>
+          <ScrollControls pages={3} damping={1} maxSpeed={1}>
+            <SheetProvider sheet={sheet}>
+              <Scene onAnimationComplete={handleAnimationComplete} />
+            </SheetProvider>
+          </ScrollControls>
+        </Canvas>
 
-      <a ref={navigationRef} href="./interface" style={{ display: "none" }} />
+        <a ref={navigationRef} href="./interface" style={{ display: "none" }} />
 
-      <Overlay />
+        <Overlay />
+      </Suspense>
     </>
   );
 }
