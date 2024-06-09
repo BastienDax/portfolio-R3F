@@ -68,29 +68,29 @@ export default function ProjetsPage({ onClick }) {
                     application web destinée à réduire les files d'attente dans
                     les bars et lors des événements.
                   </p>
-                  <a className="btn-projets mb-20 sm:mb-0" href="#projets">
+                  {/* <a className="btn-projets mb-20 sm:mb-0" href="#projets">
                     En voir plus
-                  </a>
+                  </a> */}
                 </div>
               </div>
-              <div className="mt-8 pl-8 sm:pl-16 h-full">
+              <div className="mt-8 pl-8 sm:pl-16">
                 <p
                   id="projets"
                   className="mb-8 font-bold text-xl sm:text-3xl md:text-4xl"
                 >
-                  Mes projets clients
+                  Mes clients
                 </p>
                 <div className="-ml-8 sm:-ml-16 px-8 sm:px-16 overflow-x-auto whitespace-nowrap flex gap-x-6 md:gap-x-12 gap-y-32 h-56">
-                  <div className="max-w-80 h-36 rounded-lg flex justify-center bg-fillup">
+                  <div className="min-w-80 h-36 rounded-lg bg-fillup">
                     <button
                       onClick={() => setCurrentPage(1)}
                       className="text-start"
                     >
-                      <div className="w-full flex justify-center items-center">
+                      <div className="min-w-80 flex justify-center items-center rounded-lg">
                         <img
                           className="h-36 object-cover rounded-lg"
                           src="projets-logo/fillup.png"
-                          alt=""
+                          alt="Projet Fillup"
                         />
                       </div>
                       <p className="mt-2 text-lg sm:text-xl font-bold">
@@ -99,16 +99,16 @@ export default function ProjetsPage({ onClick }) {
                       <p>Plateforme événementielle</p>
                     </button>
                   </div>
-                  <div className="max-w-80 h-36 bg-white rounded-lg flex justify-center">
+                  <div className="min-w-80 h-36 bg-white rounded-lg">
                     <button
                       onClick={() => setCurrentPage(2)}
                       className="text-start"
                     >
-                      <div className="w-full h-36 flex items-center justify-center">
+                      <div className="h-36 min-w-80 flex items-center justify-center">
                         <img
                           className="h-32 rounded-lg"
                           src="projets-logo/ardennevet.svg"
-                          alt=""
+                          alt="Projet Ardenne Vet"
                         />
                       </div>
                       <p className="mt-2 text-lg sm:text-xl font-bold">
@@ -117,7 +117,7 @@ export default function ProjetsPage({ onClick }) {
                       <p>Clinique vétérinaire</p>
                     </button>
                   </div>
-                  <div className="max-w-80 h-36 bg-white rounded-lg">
+                  <div className="min-w-80 h-36 bg-white rounded-lg">
                     <button
                       onClick={() => setCurrentPage(3)}
                       className="text-start"
@@ -126,7 +126,7 @@ export default function ProjetsPage({ onClick }) {
                         <img
                           className="h-32 object-cover rounded-lg"
                           src="projets-logo/smile.png"
-                          alt=""
+                          alt="Projet Smile"
                         />
                       </div>
                       <p className="mt-2 text-lg sm:text-xl font-bold">
@@ -135,7 +135,7 @@ export default function ProjetsPage({ onClick }) {
                       <p>Soins médicaux infirmiers</p>
                     </button>
                   </div>
-                  <div className="max-w-80 h-36 bg-white rounded-lg">
+                  <div className="min-w-80 h-36 bg-unisaide rounded-lg">
                     <button
                       onClick={() => setCurrentPage(4)}
                       className="text-start"
@@ -144,7 +144,7 @@ export default function ProjetsPage({ onClick }) {
                         <img
                           className="h-36 object-cover rounded-lg"
                           src="projets-logo/unisaide.png"
-                          alt=""
+                          alt="Projet Unisaide"
                         />
                       </div>
                       <p className="mt-2 text-lg sm:text-xl font-bold">
@@ -153,7 +153,7 @@ export default function ProjetsPage({ onClick }) {
                       <p>Plateforme d'entraide pour les étudiants</p>
                     </button>
                   </div>
-                  <div className="max-w-80 h-36 bg-white rounded-lg">
+                  <div className="min-w-80 h-36 bg-white rounded-lg">
                     <button
                       onClick={() => setCurrentPage(5)}
                       className="text-start"
@@ -162,7 +162,7 @@ export default function ProjetsPage({ onClick }) {
                         <img
                           className="h-32 object-cover rounded-lg"
                           src="projets-logo/lystya.png"
-                          alt=""
+                          alt="Projet Lystya"
                         />
                       </div>
                       <p className="mt-2 text-lg sm:text-xl font-bold">

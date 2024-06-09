@@ -308,6 +308,14 @@ body,
 
 */
 
+.bg-fillup {
+  background-color: rgb(6, 180, 221);
+}
+
+.bg-unisaide {
+  background-color: rgb(255, 255, 255);
+}
+
 .container {
   height: 80vh;
   width: 80vw;

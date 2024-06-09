@@ -6,7 +6,7 @@ export default function Unisaide({ onClick }) {
       <div className="container mb-16 sm:mb-0">
         <div className="absolute top-4 left-4">
           <button
-            className="h-9 w-9 bg-gray-300 bg-opacity-15 rounded-full flex justify-center pt-1"
+            className="h-9 w-9 bg-gray-300 bg-opacity-15 rounded-full flex justify-center items-center"
             onClick={onClick}
           >
             <svg
