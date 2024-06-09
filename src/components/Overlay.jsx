@@ -13,9 +13,11 @@ export const Overlay = () => {
       {progress === 100 && (
         <>
           <div className={`intro ${play ? "intro--disappear" : ""}`}>
-            <h1 className="logo top-[35vh] md:top-[50vh]">
-              <b>Bastien Daxhelet</b> <br className="md:hidden" />—
-              <br className="md:hidden" /> Développeur Créatif
+            <h1 className="logo top-[35vh] md:top-[45vh]">
+              <b className="text-4xl md:text-5xl">Bastien Daxhelet</b> <br />
+              <span className="text-2xl md:text-3xl">
+                Développeur Créatif Freelance
+              </span>
             </h1>
             <p className="intro__scroll top-[65vh] md:top-[75vh] font-bold tracking-widest">
               Scroll pour découvrir mon univers

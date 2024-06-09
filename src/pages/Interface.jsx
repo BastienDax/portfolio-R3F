@@ -73,7 +73,7 @@ export default function Interface() {
             <Canvas>
               <FaceLandmarker>
                 <Environment
-                  files="models/deskroom4k.hdr"
+                  files="models/deskroom2k.hdr"
                   background
                   resolution={256}
                   backgroundRotation={[0, Math.PI / 2, 0]}
@@ -120,7 +120,7 @@ export default function Interface() {
           ) : (
             <Canvas>
               <Environment
-                files="models/deskroom4k.hdr"
+                files="models/deskroom2k.hdr"
                 background
                 resolution={256}
                 backgroundRotation={[0, Math.PI / 2, 0]}

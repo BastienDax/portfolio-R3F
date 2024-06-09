@@ -81,12 +81,12 @@ export default function ProjetsPage({ onClick }) {
                   Mes clients
                 </p>
                 <div className="-ml-8 sm:-ml-16 px-8 sm:px-16 overflow-x-auto whitespace-nowrap flex gap-x-6 md:gap-x-12 gap-y-32 h-56">
-                  <div className="min-w-80 h-36 rounded-lg bg-fillup">
+                  <div className="min-w-64 h- sm:min-w-80 h-36 rounded-lg bg-fillup">
                     <button
                       onClick={() => setCurrentPage(1)}
                       className="text-start"
                     >
-                      <div className="min-w-80 flex justify-center items-center rounded-lg">
+                      <div className="min-w-64 sm:min-w-80 flex justify-center items-center rounded-lg">
                         <img
                           className="h-36 object-cover rounded-lg"
                           src="projets-logo/fillup.png"
@@ -99,12 +99,12 @@ export default function ProjetsPage({ onClick }) {
                       <p>Plateforme événementielle</p>
                     </button>
                   </div>
-                  <div className="min-w-80 h-36 bg-white rounded-lg">
+                  <div className="min-w-64 sm:min-w-80 h-36 bg-white rounded-lg">
                     <button
                       onClick={() => setCurrentPage(2)}
                       className="text-start"
                     >
-                      <div className="h-36 min-w-80 flex items-center justify-center">
+                      <div className="h-36 min-w-64 sm:min-w-80 flex items-center justify-center">
                         <img
                           className="h-32 rounded-lg"
                           src="projets-logo/ardennevet.svg"
@@ -117,7 +117,7 @@ export default function ProjetsPage({ onClick }) {
                       <p>Clinique vétérinaire</p>
                     </button>
                   </div>
-                  <div className="min-w-80 h-36 bg-white rounded-lg">
+                  <div className="min-w-64 sm:min-w-80 h-36 bg-white rounded-lg">
                     <button
                       onClick={() => setCurrentPage(3)}
                       className="text-start"
@@ -135,7 +135,7 @@ export default function ProjetsPage({ onClick }) {
                       <p>Soins médicaux infirmiers</p>
                     </button>
                   </div>
-                  <div className="min-w-80 h-36 bg-unisaide rounded-lg">
+                  <div className="sm:min-w-80 h-36 bg-unisaide rounded-lg">
                     <button
                       onClick={() => setCurrentPage(4)}
                       className="text-start"
@@ -153,7 +153,7 @@ export default function ProjetsPage({ onClick }) {
                       <p>Plateforme d'entraide pour les étudiants</p>
                     </button>
                   </div>
-                  <div className="min-w-80 h-36 bg-white rounded-lg">
+                  <div className="sm:min-w-80 h-36 bg-white rounded-lg">
                     <button
                       onClick={() => setCurrentPage(5)}
                       className="text-start"
