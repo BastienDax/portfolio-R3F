@@ -38,13 +38,13 @@ export default function ContactPage({ onClick }) {
               </div>
 
               <div>
-                <h1 className="mt-6 mb-2 font-bold text-xl md:text-2xl lg:text-3xl">
+                <h1 className="mt-6 mb-2 font-bold text-xl md:text-2xl lg:text-4xl">
                   Bastien Daxhelet
                 </h1>
                 <h2 className="mb-2 text-base md:text-xl">
-                  Développeur Créatif <br /> React | JavaScript | ThreeJS
+                  Développeur Créatif Freelance
                 </h2>
-                <h3>Québec, QC, Canada</h3>
+                <h3>📍 Québec, Canada</h3>
               </div>
             </div>
 
@@ -53,7 +53,11 @@ export default function ContactPage({ onClick }) {
                 Discutons ensemble !
               </p>
               <p className="mb-8">
-                Si vous avez une idée, un projet ou une demande, n'hésitez pas.
+                Intéressé par une expérience web immersive et captivante ?
+                <br />
+                <br />
+                Discutons ensemble ! Si vous avez une idée, un projet ou une
+                demande, n'hésitez pas à me contacter.
               </p>
               <a
                 className="mb-2 flex items-center gap-2"

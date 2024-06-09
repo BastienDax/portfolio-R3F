@@ -37,37 +37,36 @@ export default function AboutPage({ onClick }) {
               />
             </div>
             <div className="hidden sm:block">
-              <img className="h-48" src="man.svg" alt="typing animation" />
+              <img
+                className="h-48 lg:h-52"
+                src="man.svg"
+                alt="typing animation"
+              />
             </div>
           </div>
-          <h1 className="mt-6 font-bold text-xl sm:text-2xl">
-            Bastien Daxhelet
-          </h1>
-          <p>Développeur Front-end Créatif</p>
+          <div className="lg:w-8/12">
+            <h1 className="mt-6 font-bold text-xl sm:text-2xl md:text-4xl">
+              Bastien Daxhelet
+            </h1>
+            <p className="md:text-xl">Développeur Créatif Freelance</p>
 
-          <h2 className="my-6">
-            J’aide les marques et les entreprises à présenter leurs produits,
-            idées et histoires de façon immersive pour captiver leurs clients et
-            renforcer leur présence en ligne.
-            <br />
-            <br />
-            Depuis mon plus jeune âge, je me suis plongé avec passion dans
-            l'univers de la technologie et de l'innovation. J'ai déménagé de
-            Belgique pour m'installer à Québec, au Canada, pour me développer et
-            continuer d'apprendre.
-          </h2>
-          <h3 className="mt-4 sm:mt-0 font-bold text-xl sm:text-2xl">
-            Mon objectif
-          </h3>
-          <p className="my-6">
-            En créant des expériences immersives en ligne qui vont au-delà des
-            attentes, en particulier dans le domaine captivant du Web et XR.
-            Chaque projet est pour moi une opportunité d'offrir aux utilisateurs
-            une immersion totale, où chaque interaction est une expérience
-            unique et captivante.
-          </p>
+            <h2 className="my-6">
+              J'aide les marques à valoriser leurs produits, idées et histoires
+              en créant des expériences numériques immersives, captivant ainsi
+              leurs clients et renforçant leur présence en ligne.
+            </h2>
+            <h3 className="mt-4 sm:mt-0 font-bold text-xl sm:text-2xl">
+              Mon expertise
+            </h3>
+            <p className="my-6">
+              Création d'expériences web, fusionnant 3D, design et stratégie de
+              marque pour captiver les visiteurs. Pour faire ressentir à chaque
+              utilisateur une connexion unique avec la marque à travers des
+              interactions captivantes et mémorables.
+            </p>
+          </div>
 
-          <h3 className="my-6 font-bold text-xl sm:text-2xl">Mon parcours</h3>
+          <h3 className="my-6 font-bold text-xl sm:text-2xl">Mes clients</h3>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col sm:flex-row gap-x-6">
               <div className="h-32 w-32">
@@ -173,7 +172,7 @@ export default function AboutPage({ onClick }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="h-16 sm:h-20 md:h-24 rounded-2xl"
+                  className="h-16 sm:h-20 rounded-2xl"
                   src="socials-logo/instagram.svg"
                   alt=""
                 />
@@ -186,7 +185,7 @@ export default function AboutPage({ onClick }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="h-16 sm:h-20 md:h-24 rounded-2xl"
+                  className="h-16 sm:h-20 rounded-2xl"
                   src="socials-logo/linkedin.svg"
                   alt=""
                 />
@@ -199,7 +198,7 @@ export default function AboutPage({ onClick }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="h-16 sm:h-20 md:h-24 rounded-2xl"
+                  className="h-16 sm:h-20 rounded-2xl"
                   src="socials-logo/github.svg"
                   alt=""
                 />
