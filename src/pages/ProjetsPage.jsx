@@ -59,7 +59,7 @@ export default function ProjetsPage({ onClick }) {
             </div>
 
             <div className="mb-20 pb-12 h-full text-white overflow-auto">
-              <div className="flex bg-projets px-8 sm:px-16 text-black">
+              <div className="flex bg-projets px-8 sm:h-[80%] sm:px-16 text-black">
                 <div className="mt-40 mb-20 w-full sm:w-2/3 flex flex-col">
                   <p className="mb-2 text-sm">Projet à la une</p>
                   <p className="mb-2 font-bold text-4xl">FillUP</p>
