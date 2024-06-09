@@ -214,9 +214,33 @@ body,
   display: inline-flex;
   position: relative;
   overflow: hidden;
+  z-index: 1;
   transition: 0.42s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;
   pointer-events: all;
+}
+
+.contact:hover {
+  color: white;
+}
+
+.contact:hover:before {
+  width: 200%;
+  height: 300%;
+  border-radius: 100px;
+}
+
+.contact:before {
+  content: "";
+  background: #006dd2;
+  position: absolute;
+  width: 0%;
+  bottom: 0;
+  left: 50%;
+  height: 0%;
+  transition: 0.42s ease-in-out;
+  z-index: -1;
+  transform: translateX(-50%) translateY(50%);
 }
 
 .contact-mobile {
@@ -232,10 +256,34 @@ body,
   letter-spacing: 0px;
   border-radius: 32px;
   cursor: pointer;
+  z-index: 1;
   position: relative;
   overflow: hidden;
   transition: 0.42s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;
+}
+
+.contact-mobile:hover {
+  color: white;
+}
+
+.contact-mobile:hover:before {
+  width: 200%;
+  height: 300%;
+  border-radius: 100px;
+}
+
+.contact-mobile:before {
+  content: "";
+  background: #006dd2;
+  position: absolute;
+  width: 0%;
+  bottom: 0;
+  left: 50%;
+  height: 0%;
+  transition: 0.42s ease-in-out;
+  z-index: -1;
+  transform: translateX(-50%) translateY(50%);
 }
 
 .intro--disappear .contact-mobile {

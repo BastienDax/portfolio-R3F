@@ -165,7 +165,10 @@ export default function Interface() {
           <>
             <div className="absolute h-16 flex items-center bottom-4 lg:bottom-8 left-6 lg:left-8 pointer-events-auto z-50 text-white">
               <div className="h-10 flex justify-center items-center">
-                <a href="./" className="hover:text-gray-400">
+                <a
+                  href="./"
+                  className="hover:text-blue duration-500 ease-in-out"
+                >
                   ACCUEIL
                 </a>
               </div>

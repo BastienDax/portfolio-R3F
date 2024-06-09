@@ -178,7 +178,7 @@ export default function ProjetsPage({ onClick }) {
         </>
       )}
 
-      {currentPage !== 0 && <div className="">{renderCurrentPage()}</div>}
+      {currentPage !== 0 && <div>{renderCurrentPage()}</div>}
     </div>
   );
 }
