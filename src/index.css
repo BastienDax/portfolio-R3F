@@ -321,7 +321,7 @@ body,
   overflow: hidden;
 }
 
-@keyframes fadeIn {
+@keyframes animationFadeIn {
   from {
     opacity: 0;
   }
@@ -330,7 +330,7 @@ body,
   }
 }
 
-@keyframes fadeIn2 {
+@keyframes animationFadeIn2 {
   from {
     opacity: 0;
   }
@@ -342,11 +342,11 @@ body,
 }
 
 .animate-fadeIn {
-  animation: fadeIn2 0.5s forwards;
+  animation: animationFadeIn2 0.5s forwards;
 }
 
 .interfaceMenu {
-  animation: fadeIn 0.5s forwards;
+  animation: animationFadeIn 0.5s forwards;
 
   height: 70vh;
   width: 70vw;
