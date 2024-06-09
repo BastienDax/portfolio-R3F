@@ -34,7 +34,7 @@ function Loading() {
         src={background}
         alt="background"
       />
-      <span className=" z-10">{count * 2}%</span>
+      <span className="z-10">{count * 2}%</span>
     </div>
   );
 }

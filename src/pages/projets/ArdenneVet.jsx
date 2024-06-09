@@ -1,5 +1,4 @@
 import React from "react";
-import { BottomMenu } from "../../components/BottomMenu";
 
 export default function ArdenneVet({ onClick }) {
   return (
@@ -115,10 +114,6 @@ export default function ArdenneVet({ onClick }) {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="w-full flex justify-center">
-        <bottomMenu />
       </div>
     </div>
   );

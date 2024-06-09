@@ -1,5 +1,4 @@
 import React from "react";
-import { BottomMenu } from "../../components/BottomMenu";
 
 export default function Fillup({ onClick }) {
   return (
@@ -146,10 +145,6 @@ export default function Fillup({ onClick }) {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="w-full flex justify-center">
-        <bottomMenu />
       </div>
     </div>
   );

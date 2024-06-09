@@ -1,9 +1,8 @@
-import React, { Suspense, useState, useEffect } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { PlayProvider } from "./contexts/Play";
-import background from "/models/screen-bg.jpeg";
 
 function Main() {
   return (

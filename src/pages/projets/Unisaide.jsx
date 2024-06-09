@@ -1,5 +1,4 @@
 import React from "react";
-import { BottomMenu } from "../../components/BottomMenu";
 
 export default function Unisaide({ onClick }) {
   return (
@@ -142,10 +141,6 @@ export default function Unisaide({ onClick }) {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="w-full flex justify-center">
-        <bottomMenu />
       </div>
     </div>
   );
