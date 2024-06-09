@@ -11,7 +11,7 @@ import {
 } from "@react-three/drei";
 import FaceSVGAnimation from "../components/FaceSVGAnimation";
 import InterfaceMenu from "./InterfaceMenu";
-import background from "/models/screen-bg.jpeg";
+import background from "/models/screen-bg.webp";
 
 function Loading() {
   const [count, setCount] = useState(0);

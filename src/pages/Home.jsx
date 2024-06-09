@@ -12,7 +12,7 @@ import {
 } from "@theatre/r3f";
 import deskroomThroughState from "../deskroom2.json";
 
-import background from "/models/screen-bg-2.jpeg";
+import background from "/models/screen-bg-2.webp";
 
 function Loading() {
   const [count, setCount] = useState(0);

@@ -4,7 +4,7 @@ import { useGLTF, useTexture, Decal } from "@react-three/drei";
 export function Screen() {
   const { nodes, materials } = useGLTF("models/deskroom_no_merge.glb");
 
-  const screenShot = useTexture("models/screen.jpeg");
+  const screenShot = useTexture("models/screen.webp");
 
   return (
     <>
