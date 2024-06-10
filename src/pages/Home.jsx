@@ -12,7 +12,7 @@ import {
 } from "@theatre/r3f";
 import deskroomThroughState from "../deskroom2.json";
 
-import background from "/models/screen-bg-2.webp";
+import background from "/models/screen-bg-3.webp";
 
 function Loading() {
   const [count, setCount] = useState(0);
@@ -28,7 +28,7 @@ function Loading() {
   }, [count]);
 
   return (
-    <div className="bg-black h-full w-full text-3xl flex justify-center items-center text-white">
+    <div className="h-full w-full text-3xl flex justify-center items-center text-white">
       <img
         className="h-full w-full top-0 left-0 absolute blur-xl"
         src={background}

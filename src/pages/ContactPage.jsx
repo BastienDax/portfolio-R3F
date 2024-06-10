@@ -27,7 +27,7 @@ export default function ContactPage({ onClick }) {
             </button>
           </div>
 
-          <div className="overflow-auto flex flex-col xl:flex-row">
+          <div className="overflow-auto flex flex-col xl:flex-row scroll">
             <div className="pt-10 lg:py-10 pl-8 md:pl-16 w-full md:w-2/3 h-full text-white">
               <div>
                 <img

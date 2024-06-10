@@ -27,7 +27,7 @@ export default function AboutPage({ onClick }) {
           </button>
         </div>
 
-        <div className="px-8 py-10 sm:px-16 h-full text-white overflow-y-auto">
+        <div className="px-8 py-10 sm:px-16 h-full text-white overflow-y-auto scroll">
           <div className="flex justify-between">
             <div>
               <img
@@ -78,7 +78,7 @@ export default function AboutPage({ onClick }) {
                 <p className="mt-4 sm:mt-0 font-bold text-lg">FillUP</p>
                 <p>Plateforme événementielle</p>
                 <p>Freelance - 5 mois</p>
-                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto scroll">
                   <SkillButton text="React" />
                   <SkillButton text="NodeJS" />
                   <SkillButton text="MangoDB" />
@@ -101,7 +101,7 @@ export default function AboutPage({ onClick }) {
                 </p>
                 <p>Clinique vétérinaire</p>
                 <p>Freelance</p>
-                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto scroll">
                   <SkillButton text="React" />
                   <SkillButton text="UI/UX" />
                   <SkillButton text="SEO" />
@@ -119,7 +119,7 @@ export default function AboutPage({ onClick }) {
                 </p>
                 <p>Soins médicaux infirmiers</p>
                 <p>Freelance</p>
-                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto scroll">
                   <SkillButton text="React" />
                   <SkillButton text="UI/UX" />
                   <SkillButton text="SEO" />
@@ -137,7 +137,7 @@ export default function AboutPage({ onClick }) {
                 <p className="mt-4 sm:mt-0 font-bold text-lg">Unisaide</p>
                 <p>Plateforme d'entraide pour les étudiants</p>
                 <p>Freelance - 6 mois</p>
-                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto scroll">
                   <SkillButton text="React" />
                   <SkillButton text="NodeJS" />
                   <SkillButton text="MangoDB" />
@@ -154,7 +154,7 @@ export default function AboutPage({ onClick }) {
                 <p className="mt-4 sm:mt-0 font-bold text-lg">Lystya</p>
                 <p>Plateforme d'entraide entre citoyens</p>
                 <p>Freelance - 4 mois</p>
-                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto">
+                <div className="-mx-8 px-8 flex gap-x-2 mt-2 overflow-x-auto scroll">
                   <SkillButton text="PHP" />
                   <SkillButton text="MySQL" />
                   <SkillButton text="UI/UX" />

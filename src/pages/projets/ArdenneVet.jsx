@@ -26,7 +26,7 @@ export default function ArdenneVet({ onClick }) {
           </button>
         </div>
 
-        <div className="px-8 py-10 md:px-16 h-full text-white overflow-auto">
+        <div className="px-8 py-10 md:px-16 h-full text-white overflow-auto scroll">
           <p className="font-bold text-3xl mb-5 mt-5">Ardenne Vétérinaire</p>
           <div className="flex gap-5 overflow-auto pb-5 mb-5">
             <img

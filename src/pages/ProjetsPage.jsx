@@ -58,7 +58,7 @@ export default function ProjetsPage({ onClick }) {
               </button>
             </div>
 
-            <div className="mb-20 pb-12 h-full text-white overflow-auto">
+            <div className="mb-20 pb-12 h-full text-white overflow-auto scroll">
               <div className="flex bg-projets px-8 sm:h-[80%] sm:px-16 text-black">
                 <div className="mt-40 mb-20 w-full sm:w-2/3 flex flex-col">
                   <p className="mb-2 text-sm">Projet à la une</p>
@@ -80,7 +80,7 @@ export default function ProjetsPage({ onClick }) {
                 >
                   Mes clients
                 </p>
-                <div className="-ml-8 sm:-ml-16 px-8 sm:px-16 overflow-x-auto whitespace-nowrap flex gap-x-6 md:gap-x-12 gap-y-32 h-56">
+                <div className="-ml-8 sm:-ml-16 px-8 sm:px-16 overflow-x-auto whitespace-nowrap scroll flex gap-x-6 md:gap-x-12 gap-y-32 h-56">
                   <div className="min-w-64 h- sm:min-w-80 h-36 rounded-lg bg-fillup">
                     <button
                       onClick={() => setCurrentPage(1)}

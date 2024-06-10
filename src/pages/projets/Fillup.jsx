@@ -26,10 +26,10 @@ export default function Fillup({ onClick }) {
           </button>
         </div>
 
-        <div className="px-8 py-10 md:px-16 h-full text-white overflow-auto">
+        <div className="px-8 py-10 md:px-16 h-full text-white overflow-auto scroll">
           <p className="font-bold text-3xl mb-5 mt-5">FillUP</p>
 
-          <div className="flex gap-5 overflow-auto pb-5 mb-5">
+          <div className="flex gap-5 overflow-auto pb-5 mb-5 scroll">
             <img className="h-80 rounded-lg" src="fillup/1.PNG" alt="1" />
             <img className="h-80 rounded-lg" src="fillup/2.PNG" alt="2" />
             <img className="h-80 rounded-lg" src="fillup/6.PNG" alt="6" />

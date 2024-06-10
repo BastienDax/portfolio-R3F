@@ -27,7 +27,7 @@ function Loading() {
   }, [count]);
 
   return (
-    <div className="loader bg-black h-full w-full text-3xl flex justify-center items-center text-white">
+    <div className="loader h-full w-full text-3xl flex justify-center items-center text-white">
       <img
         className="h-full w-full top-0 left-0 absolute blur-xl"
         src={background}

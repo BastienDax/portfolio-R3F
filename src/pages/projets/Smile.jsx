@@ -25,9 +25,9 @@ export default function Smile({ onClick }) {
             </svg>
           </button>
         </div>
-        <div className="px-8 py-10 md:px-16  h-full text-white overflow-auto">
+        <div className="px-8 py-10 md:px-16  h-full text-white overflow-auto scroll">
           <p className="font-bold text-3xl my-5">SMILE</p>
-          <div className="flex gap-5 overflow-auto pb-5 mb-5">
+          <div className="flex gap-5 overflow-auto pb-5 mb-5 scroll">
             <img
               className="h-80 rounded-lg bg-white"
               src="smile/one.jpg"
